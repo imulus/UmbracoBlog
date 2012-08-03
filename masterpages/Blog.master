@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+  
+<asp:Content ContentPlaceHolderId="ContentPlaceHolderDefault" runat="server">
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<html lang="en">
+<head>
+  <title><umbraco:Item field="htmlTitle" useIfEmpty="pageName" htmlEncode="true" runat="server"></umbraco:Item></title>
+  <meta charset="utf-8"/>
+</head>
+
+<asp:ContentPlaceHolder Id="BlogBody" runat="server">
+<body class="blog home">
+</asp:ContentPlaceHolder><%-- // BlogBody --%>
+  
+<asp:ContentPlaceHolder Id="BlogHeader" runat="server">
+  <header id="header">
+    <strong class="title"><umbraco:Item field="blogTitle" useIfEmpty="pageName" runat="server" /></strong>
+  </header><!-- end header -->
+</asp:ContentPlaceHolder><%-- // BlogHeader --%>
+
+<asp:ContentPlaceHolder Id="BlogContent" runat="server">
+  <div class="content">
+    <div id="main">
+
+      <asp:ContentPlaceHolder Id="BlogContentMainTop" runat="server">
+      </asp:ContentPlaceHolder>
+      
+      <asp:ContentPlaceHolder Id="BlogContentMain" runat="server">
+        <umbraco:Macro pageAlias="blog" showTeaser="0" topCount="" itemsPerPage="10" showAllPosts="1" Alias="BlogPosts" runat="server"></umbraco:Macro>
+      </asp:ContentPlaceHolder><%-- // BlogContentMain --%>
+      
+      <asp:ContentPlaceHolder Id="BlogContentMainBottom" runat="server">
+      </asp:ContentPlaceHolder>
+    </div><!-- end main -->
+    
+</asp:ContentPlaceHolder><%-- // BlogContent --%>
+
+<asp:ContentPlaceHolder Id="BlogFooter" runat="server">
+  <footer id="footer">
+      <p class="copyright">Copyright &copy; <umbraco:Item field="pageName" runat="server" xslt="Exslt.ExsltDatesAndTimes:year()"/> <umbraco:item field="blogOwner" recursive="true" runat="server"></umbraco:item></p>
+  </footer><!-- end footer -->    
+</asp:ContentPlaceHolder><%-- // BlogFooter --%>
+
+<div style="display:none;">
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/scripts/jquery-1.7.2.js"><\/script>')</script>
+
+<umbraco:Item field="pageScripts" runat="server"></umbraco:Item>
+</div>
+
+</body>
+</html>
+</asp:Content><%-- // ContentPlaceHolderDefault --%>

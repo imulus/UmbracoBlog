@@ -1,0 +1,3610 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>FilteredNewsListAll.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>FilteredNewsListAll.xslt</orgName>
+    </file>
+    <file>
+      <guid>TagsList.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>TagsList.xslt</orgName>
+    </file>
+    <file>
+      <guid>imbraco-tag.png</guid>
+      <orgPath>/umbraco/images/thumbnails</orgPath>
+      <orgName>imbraco-tag.png</orgName>
+    </file>
+    <file>
+      <guid>imbraco-tab.png</guid>
+      <orgPath>/umbraco/images/umbraco</orgPath>
+      <orgName>imbraco-tab.png</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Blog</name>
+      <version>v1.0</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://imulus.com</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Bruce</name>
+      <website>http://imulus.com</website>
+    </author>
+    <readme><![CDATA[]]></readme>
+  </info>
+  <Documents>
+    <DocumentSet importMode="root">
+      <Tags id="2402" parentID="1060" level="2" writerID="0" creatorID="0" nodeType="2401" template="0" sortOrder="0" createDate="2012-04-18T16:27:47" updateDate="2012-05-07T15:37:14" nodeName="News" urlName="news" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402" isDoc="">
+        <navigationTitle />
+        <htmlTitle />
+        <pageDescription><![CDATA[]]></pageDescription>
+        <pageScripts><![CDATA[]]></pageScripts>
+        <hideFromNavigation>0</hideFromNavigation>
+        <umbracoUrlName>news</umbracoUrlName>
+        <pageRedirect />
+        <nothing />
+        <hideFromSearch>0</hideFromSearch>
+        <forceSSL>0</forceSSL>
+        <umbracoRedirect>2403</umbracoRedirect>
+        <pageRedirect301 />
+        <umbracoUrlAlias />
+        <bodyId />
+        <pageAlias>newscategories</pageAlias>
+        <Tag id="2403" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="2400" template="2411" sortOrder="0" createDate="2012-04-18T16:37:14" updateDate="2012-05-09T11:00:00" nodeName="News" urlName="all" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2403" isDoc="">
+          <navigationTitle>All News</navigationTitle>
+          <htmlTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <pageScripts><![CDATA[]]></pageScripts>
+          <hideFromNavigation>0</hideFromNavigation>
+          <umbracoUrlName>all</umbracoUrlName>
+          <pageRedirect />
+          <nothing />
+          <hideFromSearch>0</hideFromSearch>
+          <forceSSL>0</forceSSL>
+          <umbracoRedirect />
+          <pageRedirect301 />
+          <umbracoUrlAlias />
+          <bodyId />
+          <pageAlias />
+        </Tag>
+        <Tag id="2404" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="2400" template="2411" sortOrder="1" createDate="2012-04-18T16:37:22" updateDate="2012-04-18T17:47:42" nodeName="Press Releases" urlName="press-releases" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2404" isDoc="">
+          <navigationTitle />
+          <htmlTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <pageScripts><![CDATA[]]></pageScripts>
+          <hideFromNavigation>0</hideFromNavigation>
+          <umbracoUrlName />
+          <pageRedirect />
+          <nothing />
+          <hideFromSearch>0</hideFromSearch>
+          <forceSSL>0</forceSSL>
+          <umbracoRedirect />
+          <pageRedirect301 />
+          <umbracoUrlAlias />
+          <bodyId />
+          <pageAlias />
+        </Tag>
+        <Tag id="2525" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="2400" template="2411" sortOrder="2" createDate="2012-05-07T14:20:52" updateDate="2012-05-07T14:21:03" nodeName="Events" urlName="events" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2525" isDoc="">
+          <navigationTitle />
+          <htmlTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <pageScripts><![CDATA[]]></pageScripts>
+          <hideFromNavigation>0</hideFromNavigation>
+          <umbracoUrlName />
+          <pageRedirect />
+          <nothing />
+          <hideFromSearch>0</hideFromSearch>
+          <forceSSL>0</forceSSL>
+          <umbracoRedirect />
+          <pageRedirect301 />
+          <umbracoUrlAlias />
+          <bodyId />
+          <pageAlias />
+        </Tag>
+        <Tag id="2524" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="2400" template="2411" sortOrder="3" createDate="2012-05-07T14:20:32" updateDate="2012-05-07T14:20:46" nodeName="Publications" urlName="publications" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2524" isDoc="">
+          <navigationTitle />
+          <htmlTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <pageScripts><![CDATA[]]></pageScripts>
+          <hideFromNavigation>0</hideFromNavigation>
+          <umbracoUrlName />
+          <pageRedirect />
+          <nothing />
+          <hideFromSearch>0</hideFromSearch>
+          <forceSSL>0</forceSSL>
+          <umbracoRedirect />
+          <pageRedirect301 />
+          <umbracoUrlAlias />
+          <bodyId />
+          <pageAlias />
+        </Tag>
+        <Tag id="2405" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="2400" template="2411" sortOrder="4" createDate="2012-04-18T16:37:51" updateDate="2012-04-18T17:47:42" nodeName="SWF Experts in the Media" urlName="swf-experts-in-the-media" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2405" isDoc="">
+          <navigationTitle />
+          <htmlTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <pageScripts><![CDATA[]]></pageScripts>
+          <hideFromNavigation />
+          <umbracoUrlName />
+          <pageRedirect />
+          <nothing />
+          <hideFromSearch />
+          <forceSSL />
+          <umbracoRedirect />
+          <pageRedirect301 />
+          <umbracoUrlAlias />
+          <bodyId />
+          <pageAlias />
+        </Tag>
+        <Tag id="2406" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="2400" template="2411" sortOrder="5" createDate="2012-04-18T16:39:15" updateDate="2012-04-18T17:47:42" nodeName="Newsletters" urlName="newsletters" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2406" isDoc="">
+          <navigationTitle />
+          <htmlTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <pageScripts><![CDATA[]]></pageScripts>
+          <hideFromNavigation />
+          <umbracoUrlName />
+          <pageRedirect />
+          <nothing />
+          <hideFromSearch />
+          <forceSSL />
+          <umbracoRedirect />
+          <pageRedirect301 />
+          <umbracoUrlAlias />
+          <bodyId />
+          <pageAlias />
+        </Tag>
+        <Tag id="2407" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="2400" template="2411" sortOrder="6" createDate="2012-04-18T16:39:23" updateDate="2012-04-18T17:47:43" nodeName="Podcasts" urlName="podcasts" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2407" isDoc="">
+          <navigationTitle />
+          <htmlTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <pageScripts><![CDATA[]]></pageScripts>
+          <hideFromNavigation />
+          <umbracoUrlName />
+          <pageRedirect />
+          <nothing />
+          <hideFromSearch />
+          <forceSSL />
+          <umbracoRedirect />
+          <pageRedirect301 />
+          <umbracoUrlAlias />
+          <bodyId />
+          <pageAlias />
+        </Tag>
+        <RSSFeed id="2526" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="1048" template="1044" sortOrder="8" createDate="2012-05-07T14:38:17" updateDate="2012-05-07T15:03:40" nodeName="All News RSS" urlName="rss" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2526" isDoc="">
+          <navigationTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <hideFromNavigation>1</hideFromNavigation>
+          <pageRedirect />
+          <umbracoUrlName>rss</umbracoUrlName>
+          <pageAlias />
+          <pageAliasSelect>news</pageAliasSelect>
+        </RSSFeed>
+        <News id="2409" parentID="2402" level="3" writerID="0" creatorID="0" nodeType="2398" template="2411" sortOrder="9" createDate="2012-04-18T16:55:43" updateDate="2012-04-18T17:47:43" nodeName="News Posts" urlName="all-news" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409" isDoc="">
+          <navigationTitle />
+          <htmlTitle />
+          <pageDescription><![CDATA[]]></pageDescription>
+          <pageScripts><![CDATA[]]></pageScripts>
+          <hideFromNavigation>1</hideFromNavigation>
+          <umbracoUrlName>all-news</umbracoUrlName>
+          <pageRedirect />
+          <nothing />
+          <hideFromSearch>0</hideFromSearch>
+          <forceSSL>0</forceSSL>
+          <umbracoRedirect />
+          <pageRedirect301 />
+          <umbracoUrlAlias />
+          <bodyId />
+          <pageAlias>news</pageAlias>
+          <NewsItem id="2430" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="0" createDate="2012-04-24T08:17:04" updateDate="2012-05-07T17:36:35" nodeName="Brian Weeden featured on Fox News discussing Falcon HTV-2" urlName="brian-weeden-featured-on-fox-news-discussing-falcon-htv-2" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2430" isDoc="">
+            <newsDate>2012-04-23T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[ Brian Weeden discusses the results of the second flight of the Falcon HTV-2 hypersonic test vehicle.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://video.foxnews.com/v/1579099974001/pentagons-hypersonic-test-flight-over-pacific</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2435" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="1" createDate="2012-04-24T15:20:00" updateDate="2012-05-07T17:48:03" nodeName="Brian Weeden on Space.com discussing North Korean space launch" urlName="brian-weeden-on-spacecom-discussing-north-korean-space-launch" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2435" isDoc="">
+            <newsDate>2012-04-11T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden interviews with Space.com on the challenges North Korean's location poses for conducting space launches.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.space.com/15228-north-korea-rocket-launch-complications.html</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2436" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="2" createDate="2012-04-24T15:21:53" updateDate="2012-05-07T17:48:09" nodeName="Brian Weeden in the Associated Press on North Korean space launch" urlName="brian-weeden-in-the-associated-press-on-north-korean-space-launch" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2436" isDoc="">
+            <newsDate>2012-04-08T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden interviews with the Associated Press on North Korean's upcoming space launch attempt.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.google.com/hostednews/ap/article/ALeqM5i_7AeTbhcVDcrM4A3AJNmIjwgvUA?docId=776173bde85d4644a78983fba0db3ea4</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2429" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="3" createDate="2012-04-23T14:59:35" updateDate="2012-05-09T11:02:38" nodeName="Space Security Conference 2012: Laying the Groundwork for Progress" urlName="space-security-conference-2012-laying-the-groundwork-for-progress" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2429" isDoc="">
+            <newsDate>2012-04-09T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF collaborates with UNIDIR to hold a successful conference on space security issues for the disarmament community in Geneva.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><img src="~/media/77738/UNIDIR_Logo_thumb_180_90x25.jpg"  width="90"  height="25" alt="UNIDIR_Logo_thumb_180.jpg"/> SWF-UNIDIR Space Conference 2012: Laying the
+Groundwork for Progress was a collaboration of the Secure World
+Foundation and the United Nations Institute for Disarmament
+Research, with support from The Simons Foundation and the
+governments of the People's Republic of China, The Russian
+Federation, and the United States of America, that aimed to provide
+information &nbsp;and critical analysis of space security issues to
+Geneva's disarmament community. This year the conference outlined
+the basics of space security, while providing an outlook on the
+future of space security and the potential progress to be made. The
+conference also explored technical challenges and transparency and
+confidence-building measures (TCBMs). SWF Brussels Office
+Director&nbsp;<a
+href="http://swfound.org/about-us/our-team/agnieszka-lukaszczyk">Agnieszka
+Lukaszczyk</a>,&nbsp;chaired a panel titled "Ongoing International
+Space Security Processes," while SWF Washington Office
+Director&nbsp;<a
+href="http://swfound.org/about-us/our-team/victoria-samson">Victoria
+Samson</a> gave a talk titled "<a
+href="/media/65042/VS_Space Security and Why It Matters March 30 2012.pdf">
+Space Security: Why It Matters</a>".&nbsp;SWF Project
+Manager&nbsp;<a
+href="http://swfound.org/about-us/our-team/tiffany-chow">Tiffany
+Chow</a> was also in attendance.&nbsp;<a
+href="http://swfound.org/events/2012/swf-unidir-space-security-conference-2012">
+See the conference agenda, presentations and audio recordings
+here.</a></span></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2437" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="4" createDate="2012-04-24T15:24:06" updateDate="2012-05-07T17:48:25" nodeName="Brian Weeden discusses US military space with Wired's Danger Room" urlName="brian-weeden-discusses-us-military-space-with-wired's-danger-room" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2437" isDoc="">
+            <newsDate>2012-04-04T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden interviews with Wired.com's Danger Room on the past and future of U.S. miltiary space activities.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.wired.com/dangerroom/2012/04/smaller-quicker-secret-space/all/1</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2448" parentID="2409" level="4" writerID="8" creatorID="0" nodeType="2399" template="2412" sortOrder="5" createDate="2012-04-24T15:46:59" updateDate="2012-05-23T09:40:22" nodeName="SWF Staff Recognized in the IAF 2012 Young Space Leaders Recognition Programme" urlName="swf-staff-recognized-in-the-iaf-2012-young-space-leaders-recognition-programme" writerName="Natassa Antoniou" creatorName="Administrator" path="-1,1060,2402,2409,2448" isDoc="">
+            <newsDate>2012-04-02T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Brussels Office Director, Agnieszka Lukaszczyk, selected by the IAF as a 2012 Young Space Leader.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><br />
+ <img src="~/media/1939/agnieszka_6556_100x123.jpg"  width="100"  height="123" alt="Agnieszka" class="left"/>SWF
+Brussels Office Director,</span> <a
+href="/about-us/our-team/agnieszka-lukaszczyk">Agnieszka
+Lukaszczyk,</a> <span>has been selected with four other persons to
+receive the 2012 Young Space Leader Recognition Award. This
+inaugural programme produced considerable interest from IAF Member
+organisations which resulted in a large number of highly qualified
+nominations. The other award recipietns are: Ariane Cornell (SGAC),
+Nicoals Peter (ESA), Kevin Stube (NASA), Danielle Wood (MIT). The
+2012 Young Space Leaders will be inducted at the 63rd International
+Astronautical Congress (IAC) 1-5 October 2012 in Naples, Italy. The
+induction will occur during the Closing Ceremony on 5 October and
+will be a highlight of the IAC. They are also invited to attend the
+IAC Gala Dinner as guests of the IAF President.</span> <a
+href="http://www.iafastro.org/index.html?title=YSLRecognition">Learn
+more about the recognition programme.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2438" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="6" createDate="2012-04-24T15:25:34" updateDate="2012-05-07T17:49:05" nodeName="Brian Weeden discusses the Space Code of Conduct with the BBC" urlName="brian-weeden-discusses-the-space-code-of-conduct-with-the-bbc" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2438" isDoc="">
+            <newsDate>2012-03-26T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden interviews with BBC.com on the International Code of Conduct for Space Activities]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.bbc.co.uk/news/science-environment-17448173</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2439" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="7" createDate="2012-04-24T15:26:44" updateDate="2012-05-07T17:49:13" nodeName="Brian Weeden discusses DARPA's Galileo program with Wired's Danger Room" urlName="brian-weeden-discusses-darpa's-galileo-program-with-wired's-danger-room" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2439" isDoc="">
+            <newsDate>2012-03-19T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden interviews with Wired.com's Danger Room on DARPA's Galileo program.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.wired.com/dangerroom/2012/03/darpa-galileo/</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2414" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="8" createDate="2012-04-18T17:11:34" updateDate="2012-05-07T17:49:21" nodeName="Experts See Threat to Environmental Intelligence in Monitoring Our Changing Earth" urlName="experts-see-threat-to-environmental-intelligence-in-monitoring-our-changing-earth" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2414" isDoc="">
+            <newsDate>2012-03-18T00:00:00</newsDate>
+            <tags><![CDATA[2403,2404]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Specialists agree that environmental intelligence must be a national priority, as it is essential to protecting our citizens, economy, and national security. Lack of information - particularly from Earth-orbiting sensors and systems -- could have devastating consequences, chiefly in the area of risk management.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.newswise.com/articles/experts-see-threat-to-environmental-intelligence-in-monitoring-our-changing-earth</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2424" parentID="2409" level="4" writerID="8" creatorID="0" nodeType="2399" template="2412" sortOrder="9" createDate="2012-04-20T17:00:34" updateDate="2012-05-23T09:50:34" nodeName="Experts Confer on &quot;Rules of the Road&quot; for Outer Space Activities" urlName="experts-confer-on-rules-of-the-road-for-outer-space-activities" writerName="Natassa Antoniou" creatorName="Administrator" path="-1,1060,2402,2409,2424" isDoc="">
+            <newsDate>2012-03-13T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Brussels Office holds a round table discussion on the International Code of Conduct for Space Activities.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><br />
+ <img src="~/media/79862/IMG_0734_100x75.jpg"  width="100"  height="75" alt="IMG_0734.JPG" class="left"/>To
+review the current status of the European Union's (EU) Code of
+Coduct, Secure World Foundation (SWF) brought together experts on
+March 8 in Brussels, Belgium to take part in a special panel
+titled: International Code of Conduct for Outer Space Activities -
+The International Perspective.&nbsp; <a
+href="/events/2012/brussels-space-policy-round-table-international-code-of-conduct-for-outer-space-activities-the-international-perspective">
+Learn more about the event.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2457" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="10" createDate="2012-04-24T17:32:34" updateDate="2012-04-24T17:42:59" nodeName="Space Debris and Sustainability Challenges: An International NGO Perspective" urlName="space-debris-and-sustainability-challenges-an-international-ngo-perspective" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2457" isDoc="">
+            <newsDate>2012-03-04T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Victoria Samson discusses space debris and space sustainability at a conference in Tokyo.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><br />
+ <img src="~/media/1914/victoria_6570_100x125.jpg"  width="100"  height="125" alt="Victoria" class="left"/>SWF
+Washington Office Director Victoria Samson presented "</span><a
+href="http://swfound.org/media/62818/VSamson_JSF_March2012.pdf">Space
+Debris and Sustainability Challenges: An International NGO
+Perspective</a><span>", given at the International Symposium on
+Sustainable Space Development and Utilization for Mankind hosted by
+the Japanese Space Forum, Tokyo, Japan, March 2, 2012.</span></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2449" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="11" createDate="2012-04-24T15:51:55" updateDate="2012-04-24T16:32:44" nodeName="SWF lectures on the &quot;International Code of Conduct on Outer Space Activities&quot;" urlName="swf-lectures-on-the-international-code-of-conduct-on-outer-space-activities" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2449" isDoc="">
+            <newsDate>2012-03-02T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Agnieszka Lukaszczyk lectures at Leiden University]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><br />
+ <img src="~/media/1939/agnieszka_6556_100x123.jpg"  width="100"  height="123" alt="Agnieszka" class="left"/>SWF
+European program Manager,</span> <a
+href="http://swfound.org/about-us/our-team/agnieszka-lukaszczyk">Agnieszka
+Lukaszczyk</a><span>, gave a guest lecture on the</span> <a
+href="http://swfound.org/media/61715/icoc_leiden_al.pdf">EU
+proposal for the International Code of Conduct on Outer Space
+Activities</a> <span>to the students in the LLM advanced class of
+air and space law at Leiden University. The</span> <a
+href="http://en.mastersinleiden.nl/programmes/air-and-space-law/en/introduction/">
+Master's Programme in Air and Space Law</a> <span>is a combination
+of public air law, private air law and space law, both from an
+international and European perspective. The programme is unique in
+the world.</span></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2428" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="12" createDate="2012-04-23T14:51:24" updateDate="2012-05-07T17:52:29" nodeName="SWF January/February 2012 Newsletter" urlName="swf-januaryfebruary-2012-newsletter" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2428" isDoc="">
+            <newsDate>2012-03-01T00:00:00</newsDate>
+            <tags><![CDATA[2403,2406]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF releases it's newsletter for January and February 2012]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://createsend.com/t/r-6CBBC67A0F3F8066</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2427" parentID="2409" level="4" writerID="8" creatorID="0" nodeType="2399" template="2412" sortOrder="13" createDate="2012-04-23T14:48:12" updateDate="2012-05-23T09:53:22" nodeName="Europe's Global Monitoring for Environment and Security Program Examined" urlName="europe's-global-monitoring-for-environment-and-security-program-examined" writerName="Natassa Antoniou" creatorName="Administrator" path="-1,1060,2402,2409,2427" isDoc="">
+            <newsDate>2012-02-29T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Brussels holds round table discussion on GMES]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><img src="~/media/79956/GMES_Round_Table_10_100x75.jpg"  width="100"  height="75" alt="GMES_Round_Table_10.JPG" class="left"/>Now under active discussion in the European
+Union's (EU) Global Monitoring Environment and Security - or GMES
+program. It is a project to establish a European capacity for Earth
+observation services, focused on an array of needs - from food and
+health security to environmental and political security. &nbsp;SWF
+held a round table discussion in Brussels to discuss the various
+policy aspects of GMES. <a
+href="/events/2012/the-brussels-space-policy-round-table-the-future-of-gmes">
+Learn more about the event.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2440" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="14" createDate="2012-04-24T15:30:40" updateDate="2012-05-07T17:53:22" nodeName="Brian Weeden discusses China's advances in space technology with Space.com" urlName="brian-weeden-discusses-china's-advances-in-space-technology-with-spacecom" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2440" isDoc="">
+            <newsDate>2012-02-28T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden interviews with Space.com on China's advances in space technology.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.space.com/14697-china-space-program-military-threat.html</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2458" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="15" createDate="2012-04-24T17:35:00" updateDate="2012-04-24T17:42:45" nodeName="Missile Defense, Space Security, and Changing Priorities for the Indian Military in Space" urlName="missile-defense,-space-security,-and-changing-priorities-for-the-indian-military-in-space" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2458" isDoc="">
+            <newsDate>2012-02-25T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Victoria Samson discusses the space security implications of India's missile defense program at a workshop in Singapore]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><img src="~/media/1914/victoria_6570_100x125.jpg"  width="100"  height="125" alt="Victoria" class="left"/>SWF
+Washington Office Director Victoria Samson participated in a
+workshop run by the S. Rajaratnam School of International Studies
+(RSIS) in Singapore on Feb. 24, 2012, called "The New Indian
+Military-II." She presented her paper, "Missile Defense, Space
+Security, and Changing Priorities for the Indian Military in
+Space."&nbsp; In her presentation, she argued that India's evolving
+position on space to include more military capacities and utilizing
+space for national security means can have long-term effects on the
+Asia-Pacific region, including spurring on an Asian space race.
+View her paper</span> <a
+href="http://swfound.org/media/62204/VSamson_RSIS_24_Feb_2012.pdf">here.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2459" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="16" createDate="2012-04-24T17:37:32" updateDate="2012-04-24T17:49:56" nodeName="Sustainable Governance of Space" urlName="sustainable-governance-of-space" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2459" isDoc="">
+            <newsDate>2012-02-24T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Tiffany Chow discusses new research on space governance at a conference in Strasbourg, France.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><img src="~/media/1929/tiffany_6526_100x119.jpg"  width="100"  height="119" alt="Tiffany" class="left"/>SWF Program
+Manager Tiffany Chow presented</span> <a
+href="http://swfound.org/media/61534/ISUSymposium2012PresentationTChow.pdf">
+"An Introduction to Ostrom's Eight Principles for Sustainable
+Governance of Common-Pool Resources as a Possible Framework for
+Sustainable Governance of Space,"</a> <span>at the ISU Symposium in
+Strasbourg, France, February 21-23, 2012.</span></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2454" parentID="2409" level="4" writerID="8" creatorID="0" nodeType="2399" template="2412" sortOrder="17" createDate="2012-04-24T16:52:05" updateDate="2012-05-23T09:53:45" nodeName="SWF Actively Participates in the 49th Session of the Scientific and Technical Subcommittee of the UN COPUOS" urlName="swf-actively-participates-in-the-49th-session-of-the-scientific-and-technical-subcommittee-of-the-un-copuos" writerName="Natassa Antoniou" creatorName="Administrator" path="-1,1060,2402,2409,2454" isDoc="">
+            <newsDate>2012-02-25T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Multiple SWF staff members contribute to the annual meeting of the STSC.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><img src="/media/58993/Vienna_UN_Building.jpg" width="75" height="100" alt="Vienna_UN_Building.jpg" class="left"/>The
+forty-ninth session of the Scientific and Technical Subcommittee of
+the Committee on the Peaceful Uses of Outer Space was held from
+6-17 February 2012 at the United Nation Office in Vienna. As every
+year SWF had a strong participation in various working groups,
+expert groups and overall discussions. SWF European Program
+Manager</span> <a
+href="/about-us/our-team/agnieszka-lukaszczyk">Agnieszka
+Lukaszczyk</a><span>, gave a</span> <a
+href="/media/58990/STSC_2012_Statement.pdf">statement</a> <span>to
+the Subcommittee on behalf of the SWF. Technical Advisor</span> <a
+href="/about-us/our-team/brian-weeden" title="Brian Weeden">Brian
+Weeden</a> <span>gave a technical presentation titled</span> <a
+href="/media/58891/weeden-globalssasensors.pdf">"The Global Space
+Situational Awarenss Sensors Database - A New Tool for
+Collaboration and Cooperation"</a> <span>while Senior
+Advisor</span> <a href="/about-us/our-team/dr-ray-williamson">Ray
+Williamson</a> <span>presented a report of a workshop:</span> <a
+href="/media/58987/RW-NEOs_Media_RiskCommunications.pdf">NEOs, the
+Media and Risk Communications</a><span>. SWF Executive
+Director</span> <a
+href="/about-us/our-team/dr-michael-k-simpson">Michael Simpson</a>
+<span>also attended the meeting.</span></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2426" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="18" createDate="2012-04-23T14:45:12" updateDate="2012-05-07T17:55:07" nodeName="Virtual Communities Tap Satellite Technologies for Disaster Response" urlName="virtual-communities-tap-satellite-technologies-for-disaster-response" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2426" isDoc="">
+            <newsDate>2012-02-15T00:00:00</newsDate>
+            <tags><![CDATA[2403,2404]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[For the past several years, advancements in technologies have made it possible for virtual communities to provide increasing support to disaster preparedness and emergency response efforts.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.newswise.com/articles/view/585855</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2441" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="19" createDate="2012-04-24T15:32:20" updateDate="2012-05-07T17:55:15" nodeName="Victoria Samson discusses National and International Security Challenges in Space on NPR" urlName="victoria-samson-discusses-national-and-international-security-challenges-in-space-on-npr" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2441" isDoc="">
+            <newsDate>2012-02-14T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Washington Officer Director, Victoria Samson, interviews with NPR affiliate WILL/580 AM about Security in Outer Space: National and International Challenges.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://will.illinois.edu/focus/interview/focus120209a/</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2460" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="20" createDate="2012-04-24T17:39:17" updateDate="2012-04-24T17:42:10" nodeName="Security in Outer Space: Overview and Recent Trends" urlName="security-in-outer-space-overview-and-recent-trends" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2460" isDoc="">
+            <newsDate>2012-02-10T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Victoria Samson discusses recent events in space security at an event in Champaign, Illinois.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><img src="~/media/1914/victoria_6570_100x125.jpg"  width="100"  height="125" alt="Victoria" class="left"/>SWF Washington Office Director Victoria Samson
+presented "Security in Outer Space: Overview and Recent Trends," at
+the Program in Arms Control, Disarmament, and International
+Security (ACDIS), in Champaign, Illinois, on February 9, 2012</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2461" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="21" createDate="2012-04-24T17:43:22" updateDate="2012-05-07T19:16:16" nodeName="SWF Discusses Space Debris and SSA on Capitol Hill" urlName="swf-discusses-space-debris-and-ssa-on-capitol-hill" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2461" isDoc="">
+            <newsDate>2012-02-05T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[The SWF DC Office holds an event on space debris and SSA on Capitol Hill]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>"<a href="/{localLink:2209}"
+title="Trash in the Skies: The Challenge of Space Debris">Trash In
+the Skies: The Challenge of Space Debris</a>" was hosted by SWF on
+February 3rd in the Senate Russell Building and included SWF's own
+Brian Weeden as well as Darren McKnight.&nbsp; The two spoke for an
+hour and a half on the problems of space debris, common
+misconceptions, and the issues that plague the policy community
+right now.&nbsp; The event was very well attended, with
+representatives from the legislative community, industry, and the
+space community all showing up for the discussion.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2456" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="22" createDate="2012-04-24T17:30:12" updateDate="2012-04-24T17:32:18" nodeName="UN-SPIDER Report on Crowdsource Mapping" urlName="un-spider-report-on-crowdsource-mapping" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2456" isDoc="">
+            <newsDate>2012-02-03T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Summary of expert recommendations on using crowdsource tools and technologies with space-based data.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span>Secure World Foundation is pleased to announce release of
+an informative and instructive publication:</span> <a
+href="http://swfound.org/media/58428/unspider2012_crowdsource%20mapping_final%20report.pdf">
+UN-SPIDER Report on Crowdsource Mapping</a><span>. This report
+based on two Expert Meetings (Vienna, Geneva) organized by the
+UN-SPIDER with support of the SWF and the Government of Austria. It
+brought together over 80 experts and practitioners from over 20
+countries each time. It focused on exploring possible ways of
+contributing to improve coordination between the crowdsource
+communities and the space technology community and on overall
+improvement of its involvement to facilitate the preparation and
+processing of space-based products to be used by the disaster risk
+reduction and emergency response community. The discussions
+targeted opportunities concerning space-based information which is
+available for disaster risk reduction and emergency response,
+including their access and use, as well as the further involvement
+of existing mechanisms to ensure increased coordination and
+cooperation of all three communities.</span> <a
+href="http://swfound.org/events/2011/un-spider-international-expert-meeting-crowdsource-mapping-for-preparedness-and-emergency-response">
+Learn more about the event.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2455" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="23" createDate="2012-04-24T17:28:09" updateDate="2012-04-24T17:29:48" nodeName="The Final Report of the 21st UN/IAF Workshop on Space for Human and Environmental Security" urlName="the-final-report-of-the-21st-uniaf-workshop-on-space-for-human-and-environmental-security" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2455" isDoc="">
+            <newsDate>2012-02-01T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span>Secure World Foundation is pleased to announce the release
+of the final report of the 21st United Nations/International
+Astronautical Federation Workshop on</span> <a
+href="http://swfound.org/media/58622/iaf2012_cape%20town_final%20report.pdf">
+"Space for Human and Environmental Security"</a><span>. The
+objectives of the Workshop were to exchange experiences in space
+science and technology applications and to discuss opportunities
+for increasing regional and international cooperation among
+developing countries and between developed and developing
+countries. This workshop was orgaznized in a partnership with ESA,
+Secure World Foundation, International Academy of Astronautics
+(IAA) and the Committee on Space Research (COSPAR).</span></p>
+
+<p>The report can be found <a
+href="http://swfound.org/media/58622/iaf2012_cape%20town_final%20report.pdf">
+here</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2462" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="24" createDate="2012-04-24T17:45:59" updateDate="2012-05-07T17:55:53" nodeName="Future of the US-Japan Relationship" urlName="future-of-the-us-japan-relationship" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2462" isDoc="">
+            <newsDate>2012-01-25T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Brian Weeden discusses the role of space security in the US-Japan Alliance at a workshop in Tokyo.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><img src="~/media/1934/brian_6588_100x116.jpg"  width="100"  height="116" alt="Brian" class="left"/>SWF Technical
+Advisor</span> <a
+href="http://swfound.org/about-us/our-team/brian-weeden"
+title="Brian Weeden">Brian Weeden</a> <span>joined other young
+intellectuals in Kanazawa, Japan, for a 2-day conference organized
+by the</span> <a href="http://www.jiia.or.jp/en/">Japan Institute
+for International Affairs</a> <span>(JIAA). These experts discussed
+the future of the US-Japan alliance in the context of the changing
+geopolitical and strategic environment. Brian gave a</span> <a
+href="http://swfound.org/media/58282/Space%20and%20Cyber%20Governance_Kanazawa.pdf">
+presentation</a> <span>on the governance challenges of the space
+and cyber domains, and discused the role for both the US and Japan
+in establishing norms of behavior, confidence building, and
+stability.</span></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2443" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="25" createDate="2012-04-24T15:39:41" updateDate="2012-05-07T17:56:00" nodeName="Brian Weeden discusses nuclear asteroid deflection with the Des Moines Register" urlName="brian-weeden-discusses-nuclear-asteroid-deflection-with-the-des-moines-register" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2443" isDoc="">
+            <newsDate>2012-01-17T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden interviews with the Des Moines Register on the legal and policy issues with using nuclear devices to deflect asteroids]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.desmoinesregister.com/article/20120117/NEWS/301170042</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2444" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="26" createDate="2012-04-24T15:40:55" updateDate="2012-05-07T17:56:07" nodeName="Brian Weeden discusses Phobos-Grunt re-entry with Aviation Week" urlName="brian-weeden-discusses-phobos-grunt-re-entry-with-aviation-week" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2444" isDoc="">
+            <newsDate>2012-01-17T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden interviews with Aviation Week and Space Technology on the removal of Phobos-Grunt Re-entry Data From Web.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.aviationweek.com/aw/generic/story_channel.jsp?channel=space&amp;id=news/awx/2012/01/18/awx_01_18_2012_p0-415578.xml</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2445" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="27" createDate="2012-04-24T15:42:22" updateDate="2012-05-07T17:56:15" nodeName="Brian Weeden discusses X-37B and Tiangong-1 with CNN.com" urlName="brian-weeden-discusses-x-37b-and-tiangong-1-with-cnncom" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2445" isDoc="">
+            <newsDate>2012-01-13T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden discusses the X-37B and Tiangong-1 with CNN's Light Years blog.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://lightyears.blogs.cnn.com/2012/01/13/i-see-you-spy-versus-spy-in-space/</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2446" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="28" createDate="2012-04-24T15:43:42" updateDate="2012-05-07T17:56:22" nodeName="Dr. Michael Simpson interviews with Reuters on Phobos-Grunt" urlName="dr-michael-simpson-interviews-with-reuters-on-phobos-grunt" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2446" isDoc="">
+            <newsDate>2012-01-12T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Executive Director, Michael Simpson, interviews with Irene Klotz from Reuters.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.reuters.com/article/2012/01/13/us-space-satellite-idUSTRE80C2G820120113</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2442" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="29" createDate="2012-04-24T15:38:23" updateDate="2012-05-07T17:56:30" nodeName="Brian Weeden participates in panel on space security at Davos" urlName="brian-weeden-participates-in-panel-on-space-security-at-davos" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2442" isDoc="">
+            <newsDate>2012-01-12T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden participated in an Open Forum Session on "A Day Without Satellites?" at the 2012 World Economic Forum Annual Meeting in Davos, Switzerland.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><img src="~/media/1934/brian_6588_100x116.jpg"  width="100"  height="116" alt="Brian" class="left"/>At the</span>
+<a
+href="http://www.weforum.org/events/world-economic-forum-annual-meeting-2012">
+World Economc Forum's 2012 Annual Meeting</a> <span>in Davos,
+Switzerland, SWF Technical Advisor</span> <a
+href="http://swfound.org/about-us/our-team/brian-weeden"
+title="Brian Weeden">Brian Weeden</a> <span>participated in an Open
+Forum session on "</span> <a
+href="http://www.openforumdavos.ch/programme-2012/a-day-without-satellites.html">
+A Day Without Satellites?</a><span>". Over 300 members of the
+general public were on hand as Brian and other distinguished
+experts from industry, academia, and government discussed why
+satellites were important in our everyday lives, the risks to
+continued use of space for benefits on Earth, and potential
+solutions.</span> <a
+href="http://www.youtube.com/watch?v=Po2ww6oiLmc">Watch the video
+here</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.youtube.com/watch?v=Po2ww6oiLmc</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2425" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="30" createDate="2012-04-23T14:37:51" updateDate="2012-05-07T17:56:38" nodeName="Russian Spacecraft Re-entry: Orbital Debris Experts Availabe for Comment" urlName="russian-spacecraft-re-entry-orbital-debris-experts-availabe-for-comment" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2425" isDoc="">
+            <newsDate>2012-01-11T00:00:00</newsDate>
+            <tags><![CDATA[2403,2404]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[The uncontrolled re-entry of Russia's Phobos-Grunt spacecraft is expected to occur early next week, perhaps between January 15-16. Secure World Foundation experts are available to discuss orbital debris, space situational awareness, space traffic management, space sustainability, and associated topics.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.newswise.com/articles/view/584623</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2447" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="31" createDate="2012-04-24T15:45:17" updateDate="2012-05-07T17:56:47" nodeName="Brian Weeden discusses X-37B and Tiangong-1 with BBC.com" urlName="brian-weeden-discusses-x-37b-and-tiangong-1-with-bbccom" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2447" isDoc="">
+            <newsDate>2012-01-05T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden discusses the X-37B and Tiangong-1 with BBC.com]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.bbc.co.uk/news/science-environment-16423881</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2478" parentID="2409" level="4" writerID="8" creatorID="0" nodeType="2399" template="2412" sortOrder="32" createDate="2012-05-04T06:20:00" updateDate="2012-05-14T06:43:49" nodeName="SWF Holds Successful Conference in Mexico on Space for Human and Environmental Security" urlName="swf-holds-successful-conference-in-mexico-on-space-for-human-and-environmental-security" writerName="Natassa Antoniou" creatorName="Administrator" path="-1,1060,2402,2409,2478" isDoc="">
+            <newsDate>2012-05-01T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[The three-day forum discussed space policy, long-term sustainability of outer space and cyber-health.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><img src="~/media/80020/sreweb_100x67.jpg"  width="100"  height="67" alt="sreweb.jpg" class="left"/>The Forum
+"Space for Human and Environmental Security in the Americas: Space
+policy, Long-term sustainability and Cyber- Health" was held in
+Mexico City, Mexico. The key objectives of the forum were to
+promote space policies that support the long-term sustainability of
+activities in outer space as essential elements of sustainable
+development on Earth; develop a road map for the participation of
+all countries of the Americas in the Project Cyber-Health,
+identifying actions that could be taken in the Context of Climate
+Change Adaptation; and exchange of information on national space
+policies and the possible identification of space application areas
+of common interest to countries from within and outside the
+Americas. SWF Brussels Office Director,</span> <a
+href="/about-us/our-team/agnieszka-lukaszczyk">Agnieszka
+Lukaszczyk</a> <span>gave a presentation titled</span> <a
+href="/media/66118/11_International%20Code%20of%20Conduct%20for%20Outer%20Space%20Activities.pdf">
+"International Code of Conduct for Outer Space Activities vis a vis
+Other Space Security Initiatives"</a> <span>and SWF Senior
+Advisor</span> <a href="/{localLink:1215}"
+title="Dr. Ray Williamson">Ray Williamson</a> <span>presented
+on</span> <a
+href="/media/66261/3_Principles%20and%20Drivers%20of%20Space%20Policy.pdf">
+"Principles and Drivers of Space Policy"</a> and " <a
+href="/media/78825/12_assuringthesustainabilityofspaceactivities.pdf">
+Assuring the Sustainability of Space
+Activities</a><span>".</span></p>
+
+<p><a
+href="/events/2012/space-for-human-and-environmental-security-in-the-americas-space-policy,-long-term-sustainability-and-cyber-health">
+For more information click here.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2482" parentID="2409" level="4" writerID="8" creatorID="0" nodeType="2399" template="2412" sortOrder="33" createDate="2012-05-04T06:38:39" updateDate="2012-05-23T09:36:59" nodeName="SWF Co-sponsors in 5th UN Workshop on Disaster Management and Space Technology in Bonn, Germany" urlName="swf-co-sponsors-in-5th-un-workshop-on-disaster-management-and-space-technology-in-bonn,-germany" writerName="Natassa Antoniou" creatorName="Administrator" path="-1,1060,2402,2409,2482" isDoc="">
+            <newsDate>2012-05-04T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Workshop focused on strengthening global synergies through knowledge management, portals and networks bringing together more than fifty experts from Asia, Australia, Africa and Latin America]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span><img src="~/media/63966/unoosa logo_268x48.jpg"  width="268"  height="48" alt="UNOOSA Logo.jpg" class="left"/>The
+5th International UN-SPIDER Bonn workshop on Disaster Management
+and Space Technology was held in Bonn, Germany. The workshop
+focused on strengthening global synergies through knowledge
+management, portals and networks bringing together more than fifty
+experts from Asia, Australia, Africa and Latin America. It provided
+the forum for UN-SPIDER to gather elements to update its knowledge
+management strategy, particularly regarding the UN-SPIDER Knowledge
+Portal.The workshop was co-organized by the German Aerospace Center
+(DLR) and supported by Secure World Foundation, the City of Bonn
+and the German Ministry of Economics and Technology (BMWi). Project
+Manager,</span> <a
+href="/about-us/our-team/natassa-antoniou">Natassa Antoniou</a>
+<span>represented SWF.</span> <a
+href="/events/2012/5th-united-nations-international-un-spider-bonn-workshop-on-disaster-management-and-space-technology-%E2%80%9Cstrengthening-global-synergies-through-knowledge-management,-portals-and-networks%E2%80%9D#item-2">
+For more information click here.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2523" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="34" createDate="2012-05-06T14:47:39" updateDate="2012-05-07T17:57:38" nodeName="Brian Weeden featured in Popular Mechanics discussing X-37B" urlName="brian-weeden-featured-in-popular-mechanics-discussing-x-37b" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2523" isDoc="">
+            <newsDate>2012-05-01T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden discusses the likely mission of the Air Force's X-37B spaceplane with Popular Mechanics]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.popularmechanics.com/technology/aviation/military/3-theories-about-the-air-forces-mystery-space-plane-x-37b-8521517?click=pm_news</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2563" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="35" createDate="2012-05-07T19:01:34" updateDate="2012-05-07T19:15:17" nodeName="SWF Convenes International Experts to Discuss Space Sustainability" urlName="swf-convenes-international-experts-to-discuss-space-sustainability" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2563" isDoc="">
+            <newsDate>2012-05-02T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF brings together experts from six different countries outside of the US and Europe to discuss international perspectives on space sustainability.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><br />
+ <img src="~/media/78439/IMG_0105_150x112.jpg"  width="150"  height="112" alt="IMG_0105.JPG" class="left"/>SWF
+held a panel discussion in Washington, DC, that brought together
+eight experts from six different countries to discuss various
+international perspectives on space sustainability. &nbsp;Experts
+from Nigeria, Coloumbia, Mexico, China, India, and Japan provided
+insight into how their country views space sustainabiltiy and what
+the challenges and opportunities are for international dialog.
+&nbsp;For more information and to view the presentations, please
+visit <a href="/{localLink:2394}"
+title="International Perspectives on Space Sustainability from Africa, Asia, and Latin America">
+the event page</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2564" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="36" createDate="2012-05-07T19:17:43" updateDate="2012-05-07T19:38:56" nodeName="Tiffany Chow Presents SWF Research on Sustainable Governance of Space" urlName="tiffany-chow-presents-swf-research-on-sustainable-governance-of-space" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2564" isDoc="">
+            <newsDate>2012-02-25T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Program Manager Tiffany Chow presented a paper on the sustainable management of common-pool resources at the ISU's 16th Annual International Symposium.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><img src="~/media/1929/tiffany_6526_100x119.jpg"  width="100"  height="119" alt="Tiffany" class="left"/>SWF Program
+Manager Tiffany Chow presented a paper "<a
+href="/media/61534/ISUSymposium2012PresentationTChow.pdf">An
+Introduction to Ostrom's Eight Principles for Sustainable
+Governance of Common-Pool Resources as a Possible Framework for
+Sustainable Governance of Space"</a> at International Space
+University's 16th Annual International Space Symposium, February
+21-23 in Strasbourg, France. &nbsp;The theme of this year's
+Symposium was "Sustainability of Space Activities: International
+Issues and Potential Solutions", and Ms. Chow presented SWF
+research on potential application of recent developments in
+economics to the sustainable governance of space. &nbsp;More
+details on the event and links to her paper can be found on <a
+href="/{localLink:2065}"
+title="SWF Co-Sponsors ISU 16th Annual International Symposium:&quot;Sustainability of Space Activities: International Issues and Potential Solutions&quot;">
+the event page</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2569" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="37" createDate="2012-05-09T17:13:22" updateDate="2012-05-09T17:40:26" nodeName="SWF Podcast - &quot;Asian Space Policy and the United States&quot;" urlName="swf-podcast-asian-space-policy-and-the-united-states" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2569" isDoc="">
+            <newsDate>2011-07-28T00:00:00</newsDate>
+            <tags><![CDATA[2403,2407]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Recording of a SWF panel discussion held in Washington, DC, on July 28, 2011.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>"<a href="/{localLink:1944}"
+title="Secure World presents &quot;Asian Space Policy and The United States&quot;">
+Asian Space Policy and the United States</a>" featured a panel
+discussing the Beijing workshop, the direction of Asia space, and
+the role the United States' policy community can play in shaping
+that direction. &nbsp;This panel focused primarily on the People's
+Republic of China. Following the panel discussion, there was an
+open Q&amp;A session.</p>
+
+<p><a
+href="/media/61107/SWF_DC_Asia_Space_Policy_Event Aug2011.mp3">Audio
+file</a> (MP3)</p>
+
+<p>Speakers:</p>
+
+<p><strong>Dr. Jeffrey Lewis</strong>, East Asia Non-Proliferation
+Program, Monterey Institute</p>
+
+<p><strong>Ms. Alanna Krolikowski</strong>, University of
+Toronto</p>
+
+<p><strong>Mr. Ben Baseley-Walker</strong>, Advisor on Security
+Policy and International Law, Secure World Foundation</p>
+
+<p>Moderator: <strong><a href="/{localLink:1216}"
+title="Victoria Samson">Ms. Victoria Samson</a></strong>,
+Washington Office Director, Secure World Foundation</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2570" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="38" createDate="2012-05-09T17:19:20" updateDate="2012-05-09T17:39:40" nodeName="SWF Podcast - &quot;Emerging Space Nations and Space Sustainability&quot;" urlName="swf-podcast-emerging-space-nations-and-space-sustainability" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2570" isDoc="">
+            <newsDate>2011-08-22T00:00:00</newsDate>
+            <tags><![CDATA[2403,2407]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Recording of a SWF panel discussion held in Washington, DC, on August 22, 2011.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>"<a href="/{localLink:1960}"
+title="Analyzing the Development Paths of Emerging Space Nations: Opportunities or Challenges for Space Sustainability?">
+Analyzing the Development Paths of Emerging Space Nations:
+Opportunities or Challenges for Space Sustainability</a>?" examines
+the selected nations' space policy development and interest (or
+lack thereof) in international cooperation, assessing how best the
+United States and the international community can reach out to
+these emerging space actors in the advancement of space
+sustainability.The authors also look at the European Union's draft
+Code of Conduct for Outer Space Activities to assess how the
+countries examined in this research view this proposed mechanism
+for space sustainability. Finally, the authors discuss the role
+that the United States has played to date in these regions and
+suggest ways in which the United States might enhance its efforts
+in the future.</p>
+
+<p><a
+href="/media/61122/SWF_GWU_Student_Emerging_States_Space_Policy_Aug2011.mp3">
+Audio file</a> (MP3)</p>
+
+<div>Speakers are:</div>
+
+<div>Megan Ansdell, Booz Allen &amp; Hamilton</div>
+
+<div>Laura Delgado Lopez, Institute for Global Environmental
+Strategies</div>
+
+<div>Daniel Hendrickson, Aerospace Industries Association</div>
+
+<p>&nbsp;</p>
+
+<p>The views and opinions expressed by the panel are those of the
+authors and do not reflect the official policy or position of their
+employers.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2571" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="39" createDate="2012-05-09T17:25:09" updateDate="2012-05-09T17:38:34" nodeName="SWF Podcast - &quot;The Dragon's New Eyes: China's Space-based Surveillance Capabilities, Doctrine, Strategy, and Implications&quot;" urlName="swf-podcast-the-dragon's-new-eyes-china's-space-based-surveillance-capabilities,-doctrine,-strategy,-and-implications" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2571" isDoc="">
+            <newsDate>2011-11-09T00:00:00</newsDate>
+            <tags><![CDATA[2403,2407]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Recording of a SWF panel discussion held in Washington, DC, on November 9, 2011.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><span>Over the last several years, China has made significant
+investments in developing and deploying space-based intelligence,
+surveillance, and reconnaissance (ISR) capabilities to support
+military/national security requirements and enhance their regional
+power.&nbsp; China is also developing doctrine and policy for the
+space domain, and integrating these new space capabilities into
+their anti-access/area denial strategy.&nbsp; These developments
+represent an evolution in China's role in space, from an asymmetric
+actor to an established space power with significant investment and
+newfound vulnerabilities in space.</span></p>
+
+<p>"<a href="/{localLink:2091}"
+title="The Dragon's New Eyes: China's Space-Based Surveillance Capabilities, Doctrine, Strategy, and Implications">
+The Dragon's New Eyes</a>" is a panel discussion focused on how
+this shift may impact China's approach to space security and
+sustainability, the U.S.-China bilateral relationship, and
+possibilities for international cooperation on space security
+issues such as the European-proposed Code of Conduct.</p>
+
+<p><a href="/media/61110/SWF_DC_China_ISR_Nov2011.mp3">Audio
+File</a> (MP3)</p>
+
+<h2>Speakers include:</h2>
+
+<ul>
+<li><a href="http://project2049.net/who_we_are_stokes.html">Mr.
+Mark Stokes</a>, Executive Director, Project 2049 Institute</li>
+
+<li><a
+href="http://www.defensegroupinc.com/cira/Personnel.cfm?personnel=Pollpeter">
+Mr. Kevin Pollpeter</a>,&nbsp; <a
+href="http://www.defensegroupinc.com/cira/Personnel.cfm?personnel=Pollpeter">
+</a>China Project Manager, Center for Intelligence Research and
+Analysis, Defense Group, Inc.</li>
+
+<li><a
+href="http://web.mit.edu/ssp/people/cote/faculty_cote.html">Dr.
+Owen Coté</a>, Associate Director, Security Studies Program,
+Massachusetts Institute of Technology</li>
+
+<li><a href="http://swfound.org/about-us/our-team/brian-weeden"
+title="Brian Weeden">Mr. Brian Weeden</a>, Technical Advisor,
+Secure World Foundation</li>
+
+<li>Moderator:&nbsp;<a
+href="http://swfound.org/about-us/our-team/victoria-samson"
+title="Victoria Samson">Ms. Victoria Samson,</a> Washington Office
+Director, Secure World Foundation</li>
+</ul>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2572" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="40" createDate="2012-05-09T17:31:22" updateDate="2012-05-09T17:37:35" nodeName="SWF Podcast - &quot;Russia's Space Plans&quot;" urlName="swf-podcast-russia's-space-plans" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2572" isDoc="">
+            <newsDate>2011-11-03T00:00:00</newsDate>
+            <tags><![CDATA[2403,2407]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Recording of a SWF panel discussion held in Washington, DC, on November 3, 2011.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>Because space is becoming more congested with more countries
+seeking its benefits, it is easy to overlook a primary space player
+which has been involved from the beginning of the space age:
+Russia. Still, Russia's efforts in space have shaped international
+discussions on space security and sustainability, and their plans
+for space will continue to affect other space actors. Additionally,
+Russia's space program is at an interesting point: while they
+presently are the only way that the United States can access the
+International Space Station, they are also seeking to match or even
+surpass the United States in overall space capabilities.
+Furthermore, Moscow is likely monitoring the efforts of other
+rising Asian space powers, though Russia and China have worked
+together in international discussions on space security issues.
+Please join the Secure World Foundation as we host "<a
+href="/{localLink:2063}" title="Secure World presents ">Russia's
+Space Plans</a>," a panel discussion that examines Russia's space
+history, the current status of its space program and efforts in
+international fora to enhance space security, and possible future
+paths it may take.</p>
+
+<p><a href="/media/61116/SWF_DC_Russia_Event_Nov2011.mp3">Audio
+file</a> (MP3)</p>
+
+<p>Speakers include:</p>
+
+<div><a
+href="http://swfound.org/about-us/our-advisory-committee/marcia-smith"
+ title="Marcia Smith">Ms. Marcia Smith</a>, Founder,&nbsp;<a
+href="http://www.spacepolicyonline.com/">SpacePolicyOnline.com</a>.&nbsp;
+<a
+href="http://swfound.org/media/53499/russiacivilspaceplan-marciasmith.pdf">
+View presentation now.<br />
+</a> Mr. Anatoly Zak, Journalist and Founder,&nbsp;<a
+href="http://www.russianspaceweb.com/">www.RussianSpaceWeb.com</a>.&nbsp;<a
+ href="http://swfound.org/media/53469/rsw_milspace_web.pdf">View
+presentation now.</a><br />
+ <a href="http://swfound.org/about-us/our-team/tiffany-chow"
+title="Tiffany Chow">Ms. Tiffany Chow</a>, Project Manager, Secure
+World Foundation.&nbsp; <a
+href="http://swfound.org/media/53472/tchow_russiasspaceplans_20111103_v2.pdf">
+View Presentation now.</a></div>
+
+<div>Moderator:&nbsp;<a
+href="http://swfound.org/about-us/our-team/victoria-samson"
+title="Victoria Samson">Ms. Victoria Samson</a>, Secure World
+Foundation</div>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2573" parentID="2409" level="4" writerID="0" creatorID="0" nodeType="2399" template="2412" sortOrder="41" createDate="2012-05-09T17:33:38" updateDate="2012-05-09T17:37:17" nodeName="SWF Podcast - &quot;Trash in the Skies: The Challenge of Space Debris&quot;" urlName="swf-podcast-trash-in-the-skies-the-challenge-of-space-debris" writerName="Administrator" creatorName="Administrator" path="-1,1060,2402,2409,2573" isDoc="">
+            <newsDate>2012-02-03T00:00:00</newsDate>
+            <tags><![CDATA[2403,2407]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Recording of a SWF panel discussion held in Washington, DC, on February 3, 2012.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>Man's activities in space have benefited life on Earth greatly,
+but they have left their mark: over 22,000 pieces of man-made space
+debris are being tracked as they orbit our globe. How does space
+debris affect our space activities, both now and in the
+future?&nbsp; How do we monitor it?&nbsp; What are the national
+policies and international norms that limit it? And what can be
+done about it? &nbsp;"<a href="/{localLink:2209}"
+title="Trash in the Skies: The Challenge of Space Debris">Trash in
+the Skies</a>" explores these issues and more.</p>
+
+<p><a
+href="/media/61119/SWF_DC_Trash_in_the_Skies_Jan2012.mp3">Audio
+file</a> (MP3)</p>
+
+<p><br />
+ <span>These and other questions were answered as the Secure World
+Foundation, a private operating foundation dedicated to the
+sustainable use of outer space over the long-term, hosts a
+lunch-time briefing on space debris. Speaking will be:</span><br />
+<br />
+ <span><strong>Dr. Darren McKnight,</strong> Technical Director for
+Integrity Applications, Inc. (IAI) based in Chantilly, Virginia,
+who recently served on the National Research Council's Committee on
+NASA's Orbital Debris and Micrometeoroid Program.</span><br />
+<br />
+ <span><strong>Mr. Brian Weeden</strong>, Technical Advisor to the
+Secure World Foundation, and&nbsp; former active duty U.S. Air
+Force officer who worked at the U.S. Strategic Command's Joint
+Space Operations Center (JSpOC) monitoring space debris.</span></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2574" parentID="2409" level="4" writerID="8" creatorID="8" nodeType="2399" template="2412" sortOrder="42" createDate="2012-05-11T03:38:49" updateDate="2012-05-23T09:33:14" nodeName="SWF Actively Participates in the Sixth GEO European Projects' Workshop" urlName="swf-actively-participates-in-the-sixth-geo-european-projects'-workshop" writerName="Natassa Antoniou" creatorName="Natassa Antoniou" path="-1,1060,2402,2409,2574" isDoc="">
+            <newsDate>2012-05-07T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Brussels Office Director, Agnieszka Lukaszczyk, made a presentation titled "Building Appropriate Institutions to Support the Use of Earth Observations for Human Security". ]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>The provisional topics for discussion at this workshop included
+the recently adopted Work Plan for the period 2012-2015, the future
+of GEO beyond 2015 and the GEOSS Data-CORE (GEOSS Data Collection
+of Open Resources for Everyone). European projects and other
+interested players had a platform to give their input to the future
+role of Europe in GEO. In addition, the workshop provided an
+opportunity for European projects to showcase their activities in
+the domain of Earth Observation, giving a high visibility to the
+European actions conducted in the context of GEO. SWF Brussels
+Office Director, <a
+href="/about-us/our-team/agnieszka-lukaszczyk">Agnieszka
+Lukaszczyk</a>, made a presentation titled "<a
+href="/media/81160/6th geo european projects_al.pdf">Building
+Appropriate Institutions to Support the Use of Earth Observations
+for Human Security</a>". SWF Project manager, <a
+href="/about-us/our-team/natassa-antoniou">Natassa Antoniou</a>,
+also attended.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2581" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="43" createDate="2012-05-21T11:08:46" updateDate="2012-05-21T11:10:01" nodeName="Brian Weeden featured on BBC.com discussing space debris" urlName="brian-weeden-featured-on-bbccom-discussing-space-debris" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2581" isDoc="">
+            <newsDate>2012-05-21T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden discusses liability concerns and space debris removal in a BBC.com feature story.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.bbc.com/future/story/20120518-danger-space-junk-alert/1</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2612" parentID="2409" level="4" writerID="7" creatorID="7" nodeType="2399" template="2412" sortOrder="44" createDate="2012-05-23T09:21:50" updateDate="2012-05-23T09:25:22" nodeName="SWF March/April 2012 Newsletter" urlName="swf-marchapril-2012-newsletter" writerName="Marco Calderon" creatorName="Marco Calderon" path="-1,1060,2402,2409,2612" isDoc="">
+            <newsDate>2012-05-07T00:00:00</newsDate>
+            <tags><![CDATA[2403,2406]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Secure World Foundation's March-April 2012 newsletter]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://createsend.com/t/r-1BC37D537B04EA67</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2618" parentID="2409" level="4" writerID="8" creatorID="8" nodeType="2399" template="2412" sortOrder="45" createDate="2012-05-25T05:27:17" updateDate="2012-05-25T05:42:47" nodeName="SWF Co-Organizes a Workshop on Use of Space Applications in Humanitarian Operations" urlName="swf-co-organizes-a-workshop-on-use-of-space-applications-in-humanitarian-operations" writerName="Natassa Antoniou" creatorName="Natassa Antoniou" path="-1,1060,2402,2409,2618" isDoc="">
+            <newsDate>2012-05-25T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF together with the Polish Space Research Center organized a workshop on Use of Space Applications in Humanitarian Operations. ]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><img src="~/media/81862/IMG_4692_160x120.jpg"  width="160"  height="120" alt="IMG_4692.JPG" class="left"/>SWF
+together with the Polish Space Research Center organized a workshop
+on Use of Space Applications in Humanitarian Operations. It was
+devoted to presenting and discussing optimal utilization of space
+applications in support of humanitarian efforts during large-scale
+crises. The core parts of the workshop were a full-day simulation
+of humanitarian operation (with the active involvement of all
+participants) and a half-day evaluation and discussions. Simulation
+was designed as an interactive game and it fostered a large number
+of topics through a realistic exercise. <a
+href="/events/2012/workshop-on-use-of-space-applications-in-humanitarian-operations">
+For more information click here.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2638" parentID="2409" level="4" writerID="2" creatorID="2" nodeType="2399" template="2412" sortOrder="46" createDate="2012-05-29T15:15:21" updateDate="2012-06-01T08:14:27" nodeName="NEO Media/Risk Communications Working Group Report" urlName="neo-mediarisk-communications-working-group-report" writerName="Lisa Croy" creatorName="Lisa Croy" path="-1,1060,2402,2409,2638" isDoc="">
+            <newsDate>2012-06-01T00:00:00</newsDate>
+            <tags><![CDATA[2403,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF releases the "NEO Media/Risk Communications Working Group Report."]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>SWF published the <a
+href="/media/82686/SWF NEO_Media_Risk_Communications_Working_Group_Final_ Report_June_ 2012.pdf">
+"NEO Media/Risk Communications Working Group Report,"</a> which
+presents the findings from the session held in November 2011. The
+2-day session was convened by SWF and the Association of Space
+Explorers (ASE) with nearly 40 scientists, <span>reporters, risk
+communication specialists and SWF staff participating in the
+meeting at the University of Colorado, Boulder's Laboratory for
+Atmospheric and Space Physics (LASP), Boulder, Colorado. The
+meeting concentrated on assisting the United Nations Action Team-14
+(UN AT-14) on NEOs in its deliberations about the makeup and focus
+of an Information, Analysis and Warning Network (IAWN), designed to
+gather and analyze NEO data and provide timely warnings to national
+authorities should a potentially hazardous NEO threaten Earth. The
+working group explored in more detail the views of risk
+communication experts and experienced science journalists on the
+development of a successful communications strategy.</span></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2649" parentID="2409" level="4" writerID="2" creatorID="2" nodeType="2399" template="2412" sortOrder="47" createDate="2012-06-04T08:48:47" updateDate="2012-06-04T15:34:35" nodeName="New Report: Hazardous Near Earth Objects - Communicating the Risk" urlName="new-report-hazardous-near-earth-objects-communicating-the-risk" writerName="Lisa Croy" creatorName="Lisa Croy" path="-1,1060,2402,2409,2649" isDoc="">
+            <newsDate>2012-06-04T00:00:00</newsDate>
+            <tags><![CDATA[2403,2404]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[The Near Earth Object Media/Risk Communications Working Group Report has been issued by Secure World Foundation. To deal with potentially hazardous Near Earth Objects (NEOs) that could strike the Earth, there is need to establish an effective international communications strategy - but doing so is a daunting task, one that demands effective use of mass communication tools.]]></newsTeaser>
+            <bodyText><![CDATA[[tidy error]]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.newswise.com/articles/view/589977/?sc=dwtr&amp;xy=5028369</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2650" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="48" createDate="2012-06-04T12:40:54" updateDate="2012-06-06T09:13:55" nodeName="New Publication - The Economics of Space Sustainability" urlName="new-publication-the-economics-of-space-sustainability" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2650" isDoc="">
+            <newsDate>2012-06-04T00:00:00</newsDate>
+            <tags><![CDATA[2403,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden published a new article in The Space Review outlining the economics of space debris and space sustainability.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>Economics plays an important role in space sustainability and is
+often a missing or misunderstood part of the discussion. &nbsp;SWF
+Technical Advisor <a href="/{localLink:1217}"
+title="Brian Weeden">Brian Weeden</a> has published <a
+href="http://www.thespacereview.com/article/2093/1"
+target="_blank">a new article</a> in The Space Review that examines
+space sustainability, including space debris, from an economics
+perspective. &nbsp;Mr. Weeden discusses the difference between
+public, private, and common goods and the traditional perspective
+of space debris as pollution that can be dealt with through
+microeconomic incentive mechanisms such as taxes or cap-and-trade
+schemes. &nbsp;Mr. Weeden explains why these generalizations and
+conclusions are not likely to provide a useful solution of space
+debris, especially for space debris in low Earth orbit.</p>
+
+<p>As an alternative, Mr. Weeden outlines the application of more
+recent developments in economics, including information and game
+theory, and their link to current initiatives such as the code of
+conduct and SSA Sharing. &nbsp;Finally, Mr. Weeden discuses ongoing
+SWF research into the application of sustainable governance of
+common-pool resources to space and what lessons it may have for the
+long-term sustainable use of space.</p>
+
+<p>Link to the article: &nbsp;<a
+href="http://www.thespacereview.com/article/2093/1">http://www.thespacereview.com/article/2093/1</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2653" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="49" createDate="2012-06-05T11:43:10" updateDate="2012-06-05T11:50:35" nodeName="SWF Publishes new fact sheet on the International Code of Conduct for Space Activities" urlName="swf-publishes-new-fact-sheet-on-the-international-code-of-conduct-for-space-activities" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2653" isDoc="">
+            <newsDate>2012-06-05T00:00:00</newsDate>
+            <tags><![CDATA[2403,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>SWF has published <a
+href="/media/83247/ICOC_FactSheet_June2012.pdf">a new fact
+sheet</a> on the draft International Code of Conduct for Space
+Activities (ICOC). &nbsp;The fact sheet describes goals of the
+original Code of Conduct as proposed by the European Union in 2008
+and updated in 2010. &nbsp;The document discusses the various
+criticisms of the EU proposed Code of Conduct and the transition to
+the process of developing an International Code of Conduct that
+would include all interested states.</p>
+
+<p>The fact sheet can be found in the Resource Library under <a
+href="/{localLink:1291}"
+title="International Security &amp; Space">International Security
+&amp; Space</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2654" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="50" createDate="2012-06-07T08:22:52" updateDate="2012-06-07T08:31:42" nodeName="SWF Announces Young Professional Scholarships for IAC 2012 in Naples" urlName="swf-announces-young-professional-scholarships-for-iac-2012-in-naples" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2654" isDoc="">
+            <newsDate>2012-06-07T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><strong>Deadline for Applications is July 1, 2012</strong></p>
+
+<p>Secure World Foundation (SWF) is pleased to announce that it
+will be accepting applications from young professionals for
+scholarships to aid in traveling to present papers at the <a
+href="http://www.iac2012.org/" target="_blank">2012 International
+Astronautical Congress</a> (IAC) in Naples, Italy.&nbsp; The goal
+of these scholarships is to provide young space professionals an
+opportunity to participate in one of the most prestigious
+international space conferences to further their professional
+development and inject new ideas into the community.</p>
+
+<p>To qualify, individuals be under the age of 35, working in the
+space field, and already have an abstract accepted for presentation
+at IAC in Naples.&nbsp; Applicants should fill out <a
+href="https://docs.google.com/a/swfound.org/spreadsheet/viewform?formkey=dGo1TmMySlh4empIMHdVSm1yZXJNb3c6MA#gid=0">
+this form</a> with their contact information and paper details, and
+provide a short essay of no more than 500 words on why they feel it
+is important to present their research at IAC and what they hope to
+get out of the experience.</p>
+
+<p>Individuals selected to receive scholarships will be be notified
+by August 1, 2012, and required to provide a trip report to SWF
+following the Congress.</p>
+
+<p>For further questions, please contact Ms. Lisa Croy (<a
+href="mailto:lcroy@swfound.org">lcroy@swfound.org</a>).</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2655" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="51" createDate="2012-06-08T14:27:07" updateDate="2012-06-08T14:28:19" nodeName="Brian Weeden quoted in the Economist" urlName="brian-weeden-quoted-in-the-economist" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2655" isDoc="">
+            <newsDate>2012-06-08T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Technical Advisor Brian Weeden quoted in The Economist discussing NRO's gift of two mirror assemblies to NASA]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.economist.com/node/21556553</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2658" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="52" createDate="2012-06-19T14:30:09" updateDate="2012-06-22T13:44:43" nodeName="Brian Weeden discusses active debris removal in Paris" urlName="brian-weeden-discusses-active-debris-removal-in-paris" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2658" isDoc="">
+            <newsDate>2012-06-22T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Presented on "The Non-Technical Challenges with Active Debris Removal" as part of the 2nd European Workshop on Active Debris Removal]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><img src="~/media/84627/BW-CNES-Jun2012_500x375.jpg"  width="500"  height="375" alt="BW-CNES-Jun2012.jpg"/></p>
+
+<p><span>SWF Technical Advisor Brian Weeden gave a presentation in
+Paris as part of the 2nd European Workshop on Active Debris
+Removal, hosted by the French Space Agency. &nbsp;The two day
+workshop brought together more than 140 experts from around the
+world to discuss progress and challenges for removing man-made
+debris from Earth orbit to promote the long-term sustainability of
+outer space.</span></p>
+
+<p>Mr. Weeden's presentation focused on the non-technical
+challenges associated with active debris removal (ADR), including
+the legal, policy and economic challenges that need to be addressed
+along with the engineering challenges. &nbsp;Mr. Weeden advocated
+for an international technical demonstration mission that would
+help validate critical ADR technologies and serve as a specific
+example to promote progress on legal and policy issues.&nbsp; Mr.
+Weeden's presentation can be viewed <a
+href="/media/84010/Weeen-CNES-ADR.pdf"
+target="_blank">here</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2662" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="53" createDate="2012-06-21T07:01:58" updateDate="2012-06-21T07:08:51" nodeName="SWF Actively Participates in the 55th Session of UN COPUOS" urlName="swf-actively-participates-in-the-55th-session-of-un-copuos" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2662" isDoc="">
+            <newsDate>2012-06-21T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>The fifty-fifth session of the Committee on the Peaceful Uses of
+Outer Space was held from 6-15 June 2012 at the United Nations in
+Vienna. As every year SWF had a strong participation in various
+working groups, expert groups and overall discussions. SWF Brussels
+Office Director&nbsp;<a href="/{localLink:1264}" target="_blank"
+title="Agnieszka Lukaszczyk">Agnieszka Lukaszczyk</a>,gave a <a
+href="/media/84107/Statement-UNCOPUOS-AL-Jun2012.pdf">statement</a>
+to the Committee on behalf of the SWF. Senior Advisor&nbsp;<a
+href="/{localLink:1215}" title="Dr. Ray Williamson">Dr. Ray
+Williamson</a> also attended the meeting.</p>
+
+<p>The Committee on the Peaceful Uses of Outer Space was set up by
+the General Assembly in 1959 ( <a
+href="http://www.unoosa.org/oosa/SpaceLaw/gares/html/gares_14_1472.html">
+resolution 1472 (XIV)</a>) to review the scope of international
+cooperation in peaceful uses of outer space, to devise programmes
+in this field to be undertaken under United Nations auspices, to
+encourage continued research and the dissemination of information
+on outer space matters, and to study legal problems arising from
+the exploration of outer space.</p>
+
+<p>Number of <a
+href="http://www.unoosa.org/oosa/en/COPUOS/members.html">Member
+States</a> in the Committee: 71</p>
+
+<p>The Committee has two standing Subcommittees of the whole:</p>
+
+<ul>
+<li>the <a
+href="http://www.unoosa.org/oosa/en/COPUOS/stsc/index.html">Scientific
+and Technical Subcommittee</a>; and</li>
+
+<li>the <a
+href="http://www.unoosa.org/oosa/en/COPUOS/Legal/index.html">Legal
+Subcommittee</a>.</li>
+</ul>
+
+<p>The Committee and its two Subcommittees meet annually to
+consider questions put before them by the General Assembly, reports
+submitted to them and issues raised by the Member States. The
+Committee and the Subcommittees, working on the basis of consensus,
+make recommendations to the General Assembly. Detailed information
+on the work of the Committee and the Subcommittees are contained in
+their annual reports.</p>
+
+<h4>Further resources on the Committee on the Peaceful Uses of
+Outer Space:</h4>
+
+<ul>
+<li><a
+href="http://www.unoosa.org/oosa/en/COPUOS/cop_overview.html">A
+historical overview of COPUOS</a></li>
+
+<li><a
+href="http://www.unoosa.org/oosa/Reports/gadocs/coprepidx.html">Reports
+of COPUOS and its Subcommittees</a></li>
+
+<li><a
+href="http://www.unoosa.org/oosa/en/COPUOS/transcripts/index.html">Unedited
+Transcripts Archive of Past Sessions of the Committee</a></li>
+</ul>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2676" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="54" createDate="2012-06-22T02:02:11" updateDate="2012-06-22T13:28:04" nodeName="Experts Confer on &quot;The Ups and Downs of Euro-China Space Cooperation&quot;" urlName="experts-confer-on-the-ups-and-downs-of-euro-china-space-cooperation" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2676" isDoc="">
+            <newsDate>2012-06-22T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>The Secure World Foundation and the European Institute for Asian
+Studies have partnered to organize an event titled The Ups and
+Downs of Euro-China Space Cooperation, as the part of the SWF's
+Brussels Space Policy Round Table series of short panel discussions
+focused on significant global space events with a particular
+emphasis on Europe. The schedule of these events is driven by the
+important occurrences in the space sector. This event focused on an
+overview of Europe-China cooperation in space, highlighting some
+success stories, discussing challenges, the current situation and
+the way forward. Technical Advisor <a href="/{localLink:1217}"
+title="Brian Weeden">Brian Weeden</a> presented <a
+href="/media/84084/BW-EuroChina-Cooperation_Jun2012.pdf"
+target="_blank">thoughts on Euro-China space cooperation</a> and
+Brussels Office Director <a href="/{localLink:1264}"
+title="Agnieszka Lukaszczyk">Agnieszka Lukaszczyk</a> moderated the
+panel.</p>
+
+<p>To learn more about the event, see photos, speaker bios, and
+presentations visit the event page: <a
+href="/events/2012/the-brussels-space-policy-round-table-the-ups-and-downs-of-euro-china-space-cooperation">
+/events/2012/the-brussels-space-policy-round-table-the-ups-and-downs-of-euro-china-space-cooperation</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2635" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="55" createDate="2012-05-29T11:26:21" updateDate="2012-06-29T09:04:23" nodeName="Brian Weeden discusses space debris in Leiden" urlName="brian-weeden-discusses-space-debris-in-leiden" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2635" isDoc="">
+            <newsDate>2012-06-22T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><img src="~/media/84632/BW-Leiden-Jun2012_500x375.jpg"  width="500"  height="375" alt="BW-Leiden-Jun2012.jpg"/></p>
+
+<p>At a special symposium organized by the Netherlands Space
+Society at Dutch Space in Leiden, SWF Technical Advisor Brian
+Weeden presented an overview of active debris removal (ADR).
+&nbsp;He summarized the reasons why active debris removal is
+necessary and some of the technical and policy challenges in doing
+ADR operations. &nbsp;Mr. Weeden's presentation can be viewed <a
+href="/media/84419/BW-ADR-Leiden-Jun2012.pdf">here</a>.</p>
+
+<p>The agenda for the symposium and the other presentations can be
+found at the <a
+href="http://www.ruimtevaart-nvr.nl/agenda.php?onderdeel_id=1&amp;rubriek_id=1&amp;item_id=28"
+ target="_blank">Netherlands Space Society website</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2678" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="56" createDate="2012-06-22T13:33:40" updateDate="2012-06-22T13:34:47" nodeName="Agnieszka Lukaszczyk appointed to the board of Women in Aerospace Europe" urlName="agnieszka-lukaszczyk-appointed-to-the-board-of-women-in-aerospace-europe" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2678" isDoc="">
+            <newsDate>2012-06-22T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>Women in Aerospace (WIA) Europe is dedicated to expanding
+women's opportunities for leadership and increasing their
+visibility in the aerospace community, by creating a network in
+Europe and across the globe. On June 20th WIA elected three new
+board members: Angie Bukley (ISU), <a href="/{localLink:1264}"
+title="Agnieszka Lukaszczyk">Agnieszka Lukaszczyk</a> (SWF) and
+Paola Belingheri (ESA). Claudia Kessler (HE Space Operations) was
+re-elected for another term. To find out more about Women in
+Aerospace - Europe click here: <a
+href="http://www.wia-europe.org">http://www.wia-europe.org</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2685" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="57" createDate="2012-06-24T09:43:20" updateDate="2012-06-27T09:42:41" nodeName="SWF publishes three new fact sheets on space sustainability initiatives" urlName="swf-publishes-three-new-fact-sheets-on-space-sustainability-initiatives" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2685" isDoc="">
+            <newsDate>2012-06-25T00:00:00</newsDate>
+            <tags><![CDATA[2403,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>SWF has published three new fact sheets summarizing current
+space sustainability initiatives:</p>
+
+<p><a href="/media/83247/ICOC_FactSheet_June2012.pdf"
+target="_blank">The Draft International Code of Conduct for Space
+Activities</a>: a non-legally binding, voluntary international
+instrument aimed at building norms of responsible behavior in space
+activities</p>
+
+<p><a
+href="/media/84709/SWF - UNCOPUOS LTSSA Fact Sheet - June 2012.pdf"
+target="_blank">The UN COPUOS Long-Term Sustainability of Outer
+Space Activities (LTSSA) Working Group</a>: an initiative under the
+UNCOPUOS Scientific and Technical Subcommittee tasked with
+producing a consensus report outlining voluntary best practice
+guidelines for all space actors to ensure the long-term sustainable
+use of outer space.</p>
+
+<p><a href="/media/84703/SWF - GGE Fact Sheet - June 2012.pdf"
+target="_blank">The Group of Governmental Experts on Transparency
+and Confidence Building Measures (TCBMs) in Outer Space
+Activities</a>: a small group of international space experts from a
+variety of countries convened to examine and report on methods for
+improving cooperation and reducing the risks of misunderstanding
+and miscommunication in space activities.</p>
+
+<p>The full Press Release can be found <a
+href="http://www.newswise.com/articles/new-fact-sheets-available-on-sustaining-the-outer-space-environment">
+here</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2686" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="58" createDate="2012-06-27T07:26:03" updateDate="2012-06-27T08:00:43" nodeName="SWF participates in DARPA conference on sustainable satellite servicing" urlName="swf-participates-in-darpa-conference-on-sustainable-satellite-servicing" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2686" isDoc="">
+            <newsDate>2012-06-26T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>On June 26, the Defense Advanced Projects Research Agency
+(DARPA) held an <a
+href="https://www.signup4.net/public/ap.aspx?EID=DARP139E&amp;OID=50"
+ target="_blank">international conference on satellite
+servicing</a>. &nbsp;The goal of the conference was to highlight
+current and future on-orbit servicing concepts and explore the
+legal, policy, safety, operational, and other challenges in doing
+on-orbit servicing.</p>
+
+<p>SWF's Washington Office Director <a href="/{localLink:1216}"
+title="Victoria Samson">Victoria Samson</a> moderated a session
+providing an overview of several different on-orbit servicing
+concepts, and SWF Technical Advisor <a href="/{localLink:1217}"
+title="Brian Weeden">Brian Weeden</a> moderated a session on the
+operational, safety, and information sharing challenges with
+on-orbit servicing.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2687" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="59" createDate="2012-06-27T08:04:57" updateDate="2012-06-28T09:04:50" nodeName="Brian Weeden quoted in Space.com discussing problem of space debris" urlName="brian-weeden-quoted-in-spacecom-discussing-problem-of-space-debris" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2687" isDoc="">
+            <newsDate>2012-06-26T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.space.com/16289-space-junk-international-response.html</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2688" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="60" createDate="2012-06-27T08:19:48" updateDate="2012-06-28T09:04:35" nodeName="Brian Weeden discusses Chinese concerns about the X-37B on Space.com" urlName="brian-weeden-discusses-chinese-concerns-about-the-x-37b-on-spacecom" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2688" isDoc="">
+            <newsDate>2012-06-26T00:00:00</newsDate>
+            <tags><![CDATA[2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://www.space.com/16283-china-x-37b-space-plane-concerns.html</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2690" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="61" createDate="2012-07-02T08:31:53" updateDate="2012-07-12T09:55:00" nodeName="Agnieszka Lukaszczyk discuses space sustainability initiatives at the Toulouse Space Show" urlName="agnieszka-lukaszczyk-discuses-space-sustainability-initiatives-at-the-toulouse-space-show" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2690" isDoc="">
+            <newsDate>2012-07-02T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><img src="~/media/85670/Toulouse_Space_Show_2012_AL_500x333.jpg"  width="500"  height="333" alt="Toulouse_Space_Show_2012_AL.jpg"/></p>
+
+<p>SWF Brussels Office Director <a href="/{localLink:1264}"
+title="Agnieszka Lukaszczyk">Agnieszka Lukaszczyk</a> gave a
+presentation on space sustainability at the Policy and Law
+Symposium of the Toulouse Space Show. Her presentation focused on
+on current international initiatives in the are of space
+sustainability. You can see her presentation <a
+href="/media/85044/ToulouseSpaceShow-AL-Jun12.pdf">here</a>.</p>
+
+<p><strong>Environment, transport and mobility, health: the
+increasing importance of Space systems for society</strong> was the
+theme of this year's <a href="http://www.toulousespaceshow.eu/"
+target="_blank">Toulouse Space Show</a>.</p>
+
+<p>In the age of digital technology and mobility, satellites are
+with us at all times, enabling mobile phones, television, Internet,
+weather forecasts and telemedicine, navigation systems and personal
+healthcare services. In the future, these applications will all
+play an even greater role in our private and professional lives.
+All members of society, whether government or local authorities,
+professionals from industry, agriculture or healthcare, NGOs,
+architects, urban planners and others, are now aware of the
+contribution and growing importance of satellite technology.</p>
+
+<p>The objective of this year's Toulouse Space Show was to enable
+developers of solutions and Space applications to discuss ideas
+with users and imagine with them the solutions and services of the
+future.</p>
+
+<p>The 2010 Toulouse Space Show was attended by nearly a thousand
+participants from 32 countries, as well as 81 exhibitors. For this
+year's event, the organisers have been contacted by many new
+countries wishing to be represented in 2012.</p>
+
+<p>This 3<sup>rd</sup> edition of the Toulouse Space Show focused
+on four symposia:</p>
+
+<ul>
+<li><strong>Space Appli</strong>: the 4<sup>th</sup> International
+Conference on Space Applications, with demonstrations of services
+and user testimonials.</li>
+
+<li><strong>Space&amp;Law</strong>: 1<sup>st</sup> International
+Space &amp; Law Forum, to address all the legal issues and
+solutions related to the use of Space data.</li>
+
+<li><strong>KM</strong>: 4<sup>th</sup> International Conference on
+Knowledge Management for Space Missions.</li>
+
+<li><strong>ANTEM</strong>: an international conference being held
+for the first time in Toulouse and bringing together specialists in
+antennas and more generally electromagnetic systems. The
+15<sup>th</sup> edition of this symposium will be spotlighting new
+technologies.</li>
+</ul>
+
+<p>The Toulouse SPACE &amp; LAW Forum is an initiative of CNES, the
+Midi-Pyrenees Region, the University Toulouse1-Capitole, the <a
+href="http://www.iaaweb.org/" target="_blank">International Academy
+of Astronautics</a> (IAA), and the <a
+href="http://www.iislweb.org/" target="_blank">International
+Institute of Space Law</a> (IISL).</p>
+
+<p>The Forum focuses on the legal aspects triggered by the whole
+chain of service providers, from the spacecraft to the end users.
+It provided a forum for the presentations and discussions of the
+latest research results and practical applications and will
+stimulate interdisciplinary and international collaboration.</p>
+
+<p>This conference complemented the existing activities dealing
+with the field of space law and the carrying out of tasks to foster
+the development of law and regulation. It addressed all the legal
+questions from the perspectives of the providers and the users of
+given types of space applications.</p>
+
+<p>The Toulouse SPACE &amp; LAW Forum gathered lawyers, scientists,
+space players, users and space services providers, it shared and
+brought focus to the legal aspects linked to procurements and
+processes based on space services and eventually formulate
+recommendations for further legal and technical activities.</p>
+
+<p>The forum highlighted the policies, strategies and activities
+initiated and implemented over recent years, which benefit from the
+booming development of space based services.</p>
+
+<h1>The key areas which were addressed during the conference
+were:</h1>
+
+<ul>
+<li>Legal constraints: rights, freedom, privacy protection,</li>
+
+<li>Licensing requirements for space activities: national laws,
+regulatory regimes and international treaties,</li>
+
+<li>Space activities, private agreements and public
+procurements,</li>
+
+<li>Space ventures and financing opportunities,</li>
+
+<li>Lessons from emerging countries,</li>
+
+<li>Intellectual property rights,</li>
+
+<li>Responsibilities of service providers, data suppliers, users
+and other players,</li>
+
+<li>Evidence from space: use of satellites data as legal
+evidence,</li>
+
+<li>Service providers' obligations,</li>
+
+<li>Space policy.</li>
+</ul>
+
+<p>To see the program of the Space and Law Symposium click here: <a
+href="http://www.toulousespaceshow.eu/tss12/en/?page_id=1796">http://www.toulousespaceshow.eu/tss12/en/?page_id=1796</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2699" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="62" createDate="2012-07-09T14:06:51" updateDate="2012-07-12T13:40:22" nodeName="Brian Weeden gives a talk at TEDxISU on open source SSA" urlName="brian-weeden-gives-a-talk-at-tedxisu-on-open-source-ssa" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2699" isDoc="">
+            <newsDate>2012-07-07T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p><img src="~/media/85696/BW_TEDxISU_497x330.jpg"  width="497"  height="330" alt="BW_TEDxISU.JPG"/></p>
+
+<p>On July 6th, 2012, SWF Technical Advisor Brian Weeden
+participated in a <a href="http://www.ted.com/tedx"
+target="_blank">TEDx</a> event organized by International Space
+University (ISU) as part of the Alumni Weekend activities at the
+ISU Space Studies Program in Melbourne, Florida. TEDx events are
+independently organized versions of the popular <a
+href="http://www.ted.com/">TED talks</a> that promote "ideas worth
+spreading".</p>
+
+<p>The theme for <a
+href="https://www.facebook.com/pages/TEDxISU-International-Space-University/215275635220221"
+ target="_blank">TEDxISU</a> was "Open Source Space", and Brian's
+talk focused on SWF's work on open source space situational
+awareness to improve safety and sustainability of space activities.
+Brian highlighted SWF's work in launching a <a
+href="http://globalssasensors.org/" target="_blank">database of SSA
+sensors around the globe</a> and promoting the benefits of an open
+source, collaborative approach to developing SSA software
+tools.</p>
+
+<p>A summary of the event was published in <em>Florida Today</em>:
+<a
+href="http://www.floridatoday.com/article/20120707/NEWS01/307070010/TEDx-turns-into-call-collaborate"
+ target="_blank">TEDx turns into a call to collaborate</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2702" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="63" createDate="2012-07-12T09:10:36" updateDate="2012-07-12T09:11:41" nodeName="SWF and EIAS publish a report from &quot;The Ups and Downs of Euro-China Space Cooperation&quot; Space Policy Round Table" urlName="swf-and-eias-publish-a-report-from-the-ups-and-downs-of-euro-china-space-cooperation-space-policy-round-table" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2702" isDoc="">
+            <newsDate>2012-07-12T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>The Secure World Foundation and the European Institute for Asian
+Studies have partnered to organize an event titled The Ups and
+Downs of Euro-China Space Cooperation, as the part of the SWF's
+Brussels Space Policy Round Table series of short panel discussions
+focused on significant global space events with a particular
+emphasis on Europe. The schedule of these events is driven by the
+important occurrences in the space sector. This event focused on an
+overview of Europe-China cooperation in space, highlighting some
+success stories, discussing challenges, the current situation and
+the way forward. Technical Advisor <a
+href="/about-us/our-team/brian-weeden" title="Brian Weeden">Brian
+Weeden</a> presented <a
+href="/media/84084/BW-EuroChina-Cooperation_Jun2012.pdf"
+target="_blank">thoughts on Euro-China space cooperation</a> and
+Brussels Office Director <a
+href="/about-us/our-team/agnieszka-lukaszczyk"
+title="Agnieszka Lukaszczyk">Agnieszka Lukaszczyk</a> moderated the
+panel.</p>
+
+<p>To read the report click <a
+href="/media/85551/EU China Coop Conference Report.pdf">here</a>.</p>
+
+<p>To learn more about the event, see photos, speaker bios, and
+presentations visit the event page: <a
+href="/events/2012/the-brussels-space-policy-round-table-the-ups-and-downs-of-euro-china-space-cooperation">
+/events/2012/the-brussels-space-policy-round-table-the-ups-and-downs-of-euro-china-space-cooperation</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2706" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="64" createDate="2012-07-16T09:36:13" updateDate="2012-07-16T09:38:38" nodeName="Report Released from SWF Co-Sponsored 5th UN Workshop on Disaster Management and Space Technology in Bonn, Germany" urlName="report-released-from-swf-co-sponsored-5th-un-workshop-on-disaster-management-and-space-technology-in-bonn,-germany" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2706" isDoc="">
+            <newsDate>2012-07-16T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>The final report from the 5th International UN-SPIDER Bonn
+workshop on Disaster Management and Space Technology, entitled "<a
+href="/media/85722/5th_UN-SPIDER_workshop_Report.pdf">Strengthening
+Global Synergies Through Knowledge Management, Portals, and
+Networks</a>" is now available.</p>
+
+<p>The workshop was held in Bonn, Germany, April 24-26, 2012. The
+workshop focused on strengthening global synergies through
+knowledge management, portals and networks bringing together more
+than fifty experts from Asia, Australia, Africa and Latin America.
+It provided the forum for UN-SPIDER to gather elements to update
+its knowledge management strategy, particularly regarding the
+UN-SPIDER Knowledge Portal.The workshop was co-organized by the
+German Aerospace Center (DLR) and supported by Secure World
+Foundation, the City of Bonn and the German Ministry of Economics
+and Technology (BMWi). Project Manager, <a
+href="/about-us/our-team/natassa-antoniou">Natassa Antoniou</a>
+represented SWF. <a
+href="/events/2012/5th-united-nations-international-un-spider-bonn-workshop-on-disaster-management-and-space-technology-%E2%80%9Cstrengthening-global-synergies-through-knowledge-management,-portals-and-networks%E2%80%9D#item-2">
+For more information click here.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2707" parentID="2409" level="4" writerID="3" creatorID="2" nodeType="2399" template="2412" sortOrder="65" createDate="2012-07-17T13:48:53" updateDate="2012-07-18T03:46:20" nodeName="SWF and Denver Museum of Nature &amp; Science Co-sponsor IMAX Space Junk 3D Premier events" urlName="swf-and-denver-museum-of-nature-science-co-sponsor-imax-space-junk-3d-premier-events" writerName="Brian Weeden" creatorName="Lisa Croy" path="-1,1060,2402,2409,2707" isDoc="">
+            <newsDate>2012-07-13T00:00:00</newsDate>
+            <tags><![CDATA[2403,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>The premier of the new IMAX film, <em>Space Junk 3D</em>, took
+place at the Denver Museum of Nature &amp; Science. A pre-showing
+reception was held along with a post-showing panel discussion on
+how space debris is tracked and how space-faring nations can be
+engaged to implement solutions. Co-sponsored by the Museum and
+Secure World Foundation with support from Ball Aerospace, the
+expert panel consisted of:</p>
+
+<ul>
+<li>Steve Lee, Department Chair and Curator of Planetary Science at
+the Denver Museum of Nature &amp; Science (moderator)</li>
+
+<li><a href="/{localLink:2028}" title="Dr. Michael K. Simpson">Dr.
+Mike Simpson</a>, Executive Director of Secure World
+Foundation</li>
+
+<li>Don Kessler, former head of NASA's Orbital Debris Program</li>
+
+<li>Dr. Hanspeter Schaub, Associate Professor and Associate Chair
+of Graduate Affairs of the Aerospace Engineering Sciences
+Department at the University of Colorado at Boulder</li>
+
+<li>Melissa Butts, Director of <em>Space Junk 3D</em>, Melrae
+Pictures</li>
+</ul>
+
+<p>For more information on the film and future showings, visit: <a
+href="http://www.spacejunk3d.com/">SpaceJunk3D.com</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2708" parentID="2409" level="4" writerID="3" creatorID="2" nodeType="2399" template="2412" sortOrder="66" createDate="2012-07-17T14:12:29" updateDate="2012-07-18T03:45:42" nodeName="Mike Simpson interviewed by the Wall Street Journal article &quot;NASA Finds Overseas Ventures More Elusive&quot;" urlName="mike-simpson-interviewed-by-the-wall-street-journal-article-nasa-finds-overseas-ventures-more-elusive" writerName="Brian Weeden" creatorName="Lisa Croy" path="-1,1060,2402,2409,2708" isDoc="">
+            <newsDate>2012-07-09T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF Executive Director Mike Simpson interviews with the Wall Street Journal about NASA's international efforts.]]></newsTeaser>
+            <bodyText><![CDATA[]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect>http://online.wsj.com/article/SB10001424052702303561504577496814206510788.html</pageRedirect>
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2717" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="67" createDate="2012-07-18T03:47:19" updateDate="2012-07-18T03:49:58" nodeName="Leonard David discusses communicating the impact threat of Near Earth Objects in Boulder, Colorado" urlName="leonard-david-discusses-communicating-the-impact-threat-of-near-earth-objects-in-boulder,-colorado" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2717" isDoc="">
+            <newsDate>2012-06-14T00:00:00</newsDate>
+            <tags><![CDATA[2403,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>SWF Research Associate <a href="/{localLink:1221}"
+title="Leonard David">Leonard David</a> gave a talk on "Near Earth
+Objects: Communicating the Impact Threat" at the Workshop on
+Defining, Measuring, and Communicating the Socio-economic Benefits
+of Geospatial Information/GEOSS 2012, held in Boulder, Colorado.
+The talk highlighted SWF's just-issued report: <em><a
+href="/media/82686/SWF NEO_Media_Risk_Communications_Working_Group_Final_ Report_June_ 2012.pdf">
+Near Earth Object - Media/Risk Communications Working Group
+Report</a></em> prepared for Action-Team-14 of the UN Committee on
+the Peaceful Uses of Outer Space.</p>
+
+<p>Leonard's presentation can be viewed <a
+href="/media/86033/NEOs_GEOSS_2012.pdf">here</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2718" parentID="2409" level="4" writerID="3" creatorID="2" nodeType="2399" template="2412" sortOrder="68" createDate="2012-07-18T10:51:48" updateDate="2012-07-19T07:09:21" nodeName="SWF Announces SSI Executive Summary 2012 Release" urlName="swf-announces-ssi-executive-summary-2012-release" writerName="Brian Weeden" creatorName="Lisa Croy" path="-1,1060,2402,2409,2718" isDoc="">
+            <newsDate>2012-07-17T00:00:00</newsDate>
+            <tags><![CDATA[2403,2404,2525,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[Secure World Foundation is pleased to announce the release of the executive summary of Space Security 2012, the ninth annual report on developments that have an impact on the security and long-term sustainability of outer space.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>Secure World Foundation is pleased to announce the release of
+the executive summary of&nbsp;<em>Space Security 2012</em>, the
+ninth annual report on developments that have an impact on the
+security and long-term sustainability of outer space. &nbsp;The
+full press relase can be found <a
+href="http://www.newswise.com/articles/new-report-spotlights-trends-and-developments-in-outer-space-security"
+ target="_blank">here</a>.</p>
+
+<p>The&nbsp;<em><a href="/{localLink:1546}"
+title="Space Security Index">Space Security Index</a></em> (SSI)
+provides a comprehensive summary of civil, commercial and military
+space activities in 2011, identifies important trends, and analyzes
+their impact on space security.</p>
+
+<p>The developments covered by the report are organized according
+to eight chapters:</p>
+
+<p>-- The space environment<br />
+-- Space situational awareness<br />
+-- Laws, policies, and doctrines<br />
+-- Civil space programs<br />
+-- Commercial space<br />
+-- Space support for terrestrial military operations<br />
+-- Space systems resiliency<br />
+-- Space systems negation</p>
+
+<p>Release of the&nbsp;<em>2012 Space Security Index Executive
+Summary</em> took place July 17 at the Canadian Embassy in
+Washington, D.C.</p>
+
+<p>For details on the report's release, go to:</p>
+
+<p><a
+href="/events/2012/2012-space-security-index-executive-summary-release">
+/events/2012/2012-space-security-index-executive-summary-release</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2719" parentID="2409" level="4" writerID="2" creatorID="2" nodeType="2399" template="2412" sortOrder="69" createDate="2012-07-18T11:54:01" updateDate="2012-07-18T12:10:30" nodeName="Leonard David Co-hosts The Space Show" urlName="leonard-david-co-hosts-the-space-show" writerName="Lisa Croy" creatorName="Lisa Croy" path="-1,1060,2402,2409,2719" isDoc="">
+            <newsDate>2012-07-17T00:00:00</newsDate>
+            <tags><![CDATA[2403,2405]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>SWF's Leonard David co-hosted <em>The Space Show</em> with David
+Livingston to discuss media coverage, orbital debris, space
+situational awareness and lessons learned from the Columbia space
+shuttle accident. NASA guest Michael Ciannilli detailed the
+aftermath of Columbia's fatal flight. <a
+href="http://archived.thespaceshow.com/shows/1816-BWB-2012-07-17.mp3">
+Listen to the show.</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2725" parentID="2409" level="4" writerID="7" creatorID="7" nodeType="2399" template="2412" sortOrder="70" createDate="2012-07-18T17:40:33" updateDate="2012-07-18T17:45:48" nodeName="Indo-US Track 1.5 Dialog on Space Event Report Released" urlName="indo-us-track-15-dialog-on-space-event-report-released" writerName="Marco Calderon" creatorName="Marco Calderon" path="-1,1060,2402,2409,2725" isDoc="">
+            <newsDate>2012-07-18T00:00:00</newsDate>
+            <tags><![CDATA[2403,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF has released its official event report following the completion of the Indo-US Track 1.5 Dialog on Space held in Singapore on May 10 - May 11.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>SWF has released its official event report following the
+completion of the Indo-US Track 1.5 Dialog on Space held in
+Singapore on May 10 - May 11. &nbsp;You can visit the event page <a
+href="/events/2012/indo-us-track-15-dialog-on-space">here</a>, and
+read the event report <a
+href="/media/85946/swf%20acdis%20rsis_may%202012%20conference%20report.pdf">
+here</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2732" parentID="2409" level="4" writerID="7" creatorID="7" nodeType="2399" template="2412" sortOrder="71" createDate="2012-07-21T13:23:30" updateDate="2012-07-21T13:29:01" nodeName="SWF Position Opening - DC Administrative Assistant" urlName="swf-position-opening-dc-administrative-assistant" writerName="Marco Calderon" creatorName="Marco Calderon" path="-1,1060,2402,2409,2732" isDoc="">
+            <newsDate>2012-07-19T00:00:00</newsDate>
+            <tags><![CDATA[2403]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF is now hiring for a DC Administrative Assistant.]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>SWF is now hiring for a DC Administrative Assistant. &nbsp;The
+closing date for applications is July 31st, 2012, with an expected
+start date sometime in mid-August. &nbsp;You can view the job
+description and application instructions&nbsp;<a
+href="/media/86526/swf dc admin assistant position description - summer 2012.pdf">
+here</a>.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2747" parentID="2409" level="4" writerID="3" creatorID="3" nodeType="2399" template="2412" sortOrder="72" createDate="2012-08-01T07:11:58" updateDate="2012-08-01T07:16:44" nodeName="Secure World Foundation announces international dialog on satellite servicing and debris removal" urlName="secure-world-foundation-announces-international-dialog-on-satellite-servicing-and-debris-removal" writerName="Brian Weeden" creatorName="Brian Weeden" path="-1,1060,2402,2409,2747" isDoc="">
+            <newsDate>2012-07-23T00:00:00</newsDate>
+            <tags><![CDATA[2403,2404,2525]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[SWF will be holding conferences in Brussels (Oct 2012) and Singapore (Feb 2013) to continue the conversation on OOS and ADR begun at a DARPA Conference in Washington, DC]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>On-orbit servicing (OOS) and active debris removal (ADR) are
+part of an emerging category of future on-orbit activities that are
+critical for taking the next leap in our use of Earth orbit. The
+ability to repair or refuel satellites, construct new satellites in
+orbit, and even remove orbital debris can help drive innovative
+uses of space and create new possibilities. These activities also
+raises a host of diplomatic, legal, safety, operational, and policy
+challenges that need to be tackled for this future to be
+possible.</p>
+
+<p>On June 26, 2012, the U.S. Defense Advanced Research Projects
+Agency (DARPA) held a conference on "<a
+href="http://www.darpa.mil/NewsEvents/Releases/2012/04/24.aspx">Fostering
+Sustainable Satellite Servicing</a>" in Washington, D.C. that
+served as an excellent beginning for this conversation. To continue
+the discussion, Secure World Foundation (SWF) will be holding two
+follow-on international conferences to bring in the perspectives
+and viewpoints from all stakeholders on issues of on-orbit
+servicing and active debris removal, extending the conversation to
+an international audience.</p>
+
+<p>In partnership with the <a href="http://www.ifri.org/">Institut
+francais des relations internationales</a> (Ifri), SWF will hold a
+conference in Brussels, Belgium on October 30, 2012 to bring these
+discussions to the European community. SWF is also partnering with
+the <a href="http://www.space.org.sg/">Singapore Space and
+Technology Association</a> (SSTA) to hold another conference in
+Singapore on February 20, 2013 to extend the dialog to the
+Asia-Pacific region.</p>
+
+<p>According to Dr. Michael Simpson, Executive Director of SWF: "In
+order to continue to enjoy the benefits from our use of space, we
+need to be able to have an open and honest discussion of the
+challenges facing issues like OOS and ADR. An international dialog
+allows for cooperative effort and permits transparent conversation
+on these important topics."</p>
+
+<p>Details on the events, including venues and registration, will
+be posted to the <a href="/{localLink:1321}" title="Events">events
+section</a> of the SWF website in the coming weeks.</p>
+
+<p>Link to the full press release:&nbsp; <a
+href="http://www.newswise.com/articles/secure-world-foundation-announces-international-dialog-on-satellite-servicing-and-debris-removal">
+http://www.newswise.com/articles/secure-world-foundation-announces-international-dialog-on-satellite-servicing-and-debris-removal</a></p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+          <NewsItem id="2748" parentID="2409" level="4" writerID="5" creatorID="2" nodeType="2399" template="2412" sortOrder="75" createDate="2012-08-01T09:12:27" updateDate="2012-08-01T09:52:39" nodeName="Space Technologies Tackle Human and Environmental Security Problems" urlName="space-technologies-tackle-human-and-environmental-security-problems" writerName="Wendy Gordon" creatorName="Lisa Croy" path="-1,1060,2402,2409,2748" isDoc="">
+            <newsDate>2012-07-30T00:00:00</newsDate>
+            <tags><![CDATA[2403,2404,2524]]></tags>
+            <newsItemThumbnail />
+            <newsTeaser><![CDATA[]]></newsTeaser>
+            <bodyText><![CDATA[
+<p>Secure World Foundation is pleased to <a
+href="http://www.newswise.com/articles/view/591989/?sc=dwtr&amp;xy=5028369">
+announce the release</a> of the Summer 2012 issue of <a
+href="http://www.imagingnotes.com/">Imaging Notes</a> magazine,
+dedicated to highlighting the urgent, interrelated issues of Earth
+remote sensing for security, energy and the environment.</p>
+]]></bodyText>
+            <newsTitleOverride />
+            <navigationTitle />
+            <htmlTitle />
+            <pageDescription><![CDATA[]]></pageDescription>
+            <pageScripts><![CDATA[]]></pageScripts>
+            <hideFromNavigation>0</hideFromNavigation>
+            <umbracoUrlName />
+            <pageRedirect />
+            <nothing />
+            <hideFromSearch>0</hideFromSearch>
+            <forceSSL>0</forceSSL>
+            <umbracoRedirect />
+            <pageRedirect301 />
+            <umbracoUrlAlias />
+            <bodyId />
+            <pageAlias />
+          </NewsItem>
+        </News>
+      </Tags>
+    </DocumentSet>
+  </Documents>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>News</Name>
+        <Alias>News</Alias>
+        <Icon>.sprTreeFolder</Icon>
+        <Thumbnail>imbraco-news_item.png</Thumbnail>
+        <Description>All News</Description>
+        <Master>_ImulusMaster</Master>
+        <AllowedTemplates>
+          <Template>News Overview</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>News Overview</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>NewsItem</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Navigation Title</Name>
+          <Alias>navigationTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[How the title shows up in navigation menus. Defaults to the normal name of the page unless specified.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>HTML Title</Name>
+          <Alias>htmlTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[How the title shows up in the browser's title bar. Defaults to the normal name of the page unless specified.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>pageDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[A short description of this page. Helpful for search engines, and potentially used on the website.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Scripts</Name>
+          <Alias>pageScripts</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Any javascript specific to this page. Will be appended to the source prior to the closing body tag.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide From Navigation</Name>
+          <Alias>hideFromNavigation</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Prevents this page from showing up in any navigation menus.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>URL Override</Name>
+          <Alias>umbracoUrlName</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[If the default URL page address is too long or incorrect, you can specify a new one here.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>External Page Redirect</Name>
+          <Alias>pageRedirect</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Will redirect the page to an external URL. ]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Note</Name>
+          <Alias>nothing</Alias>
+          <Type>6c738306-4c17-4d88-b9bd-6546f3771597</Type>
+          <Definition>f0bc4bfb-b499-40d6-ba86-058885a5178c</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Developer Use Label]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide From Search</Name>
+          <Alias>hideFromSearch</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Prevents this page from appearing in search results.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Force SSL</Name>
+          <Alias>forceSSL</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Forces this page to use SSL. Note: SSL must be enabled in the site settings.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Internal Page Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Redirect this page to another page on your site.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Redirect 301</Name>
+          <Alias>pageRedirect301</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Put in old page links that went to this same page (ie: category/hello.php). Also sends a permanent 301 message to search engines that the location has changed.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Additional URLs</Name>
+          <Alias>umbracoUrlAlias</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[A comma-separated list of any additional URLs that will point to this page.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Body ID</Name>
+          <Alias>bodyId</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Developer use only. Adds an ID to the body tag.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Alias</Name>
+          <Alias>pageAlias</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Developer use only. Used to reference this page in macros.]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>30</Id>
+          <Caption>Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Page Specific</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>News Item</Name>
+        <Alias>NewsItem</Alias>
+        <Icon>imbraco-subpage.png</Icon>
+        <Thumbnail>imbraco-news_item.png</Thumbnail>
+        <Description>Contains additional fields for news specific pages.</Description>
+        <Master>_ImulusMaster</Master>
+        <AllowedTemplates>
+          <Template>News Item</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>News Item</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>News Date</Name>
+          <Alias>newsDate</Alias>
+          <Type>23e93522-3200-44e2-9f29-e61a6fcbb79a</Type>
+          <Definition>5046194e-4237-453c-a547-15db3a07c4e1</Definition>
+          <Tab>News Item</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The date that this article is associated with. Please note: this date is unique to the publishing time.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Categories</Name>
+          <Alias>tags</Alias>
+          <Type>cdbf0b5d-5cb2-445f-bc12-fcaaec07cf2c</Type>
+          <Definition>36ae48b1-1cf9-48d7-a90f-93f3a56ad7af</Definition>
+          <Tab>News Item</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Thumbnail</Name>
+          <Alias>newsItemThumbnail</Alias>
+          <Type>5032a6e6-69e3-491d-bb28-cd31cd11086c</Type>
+          <Definition>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Definition>
+          <Tab>News Item</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Make sure this is 60px by 60px]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>News Teaser</Name>
+          <Alias>newsTeaser</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>News Item</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Once sentence overview of the news story. Appears below the title in the archives.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Body Text</Name>
+          <Alias>bodyText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>News Item</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The content of this news item.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>News Title Override</Name>
+          <Alias>newsTitleOverride</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Will show up above your news content if defined.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Navigation Title</Name>
+          <Alias>navigationTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[How the title shows up in navigation menus. Defaults to the normal name of the page unless specified.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>HTML Title</Name>
+          <Alias>htmlTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[How the title shows up in the browser's title bar. Defaults to the normal name of the page unless specified.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>pageDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[A short description of this page. Helpful for search engines, and potentially used on the website.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Scripts</Name>
+          <Alias>pageScripts</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Any javascript specific to this page. Will be appended to the source prior to the closing body tag.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide From Navigation</Name>
+          <Alias>hideFromNavigation</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Prevents this page from showing up in any navigation menus.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>URL Override</Name>
+          <Alias>umbracoUrlName</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[If the default URL page address is too long or incorrect, you can specify a new one here.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>External Page Redirect</Name>
+          <Alias>pageRedirect</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Will redirect the page to an external URL. ]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Note</Name>
+          <Alias>nothing</Alias>
+          <Type>6c738306-4c17-4d88-b9bd-6546f3771597</Type>
+          <Definition>f0bc4bfb-b499-40d6-ba86-058885a5178c</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Developer Use Label]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide From Search</Name>
+          <Alias>hideFromSearch</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Page Specific</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Prevents this page from appearing in search results.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Force SSL</Name>
+          <Alias>forceSSL</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Forces this page to use SSL. Note: SSL must be enabled in the site settings.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Internal Page Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Redirect this page to another page on your site.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Redirect 301</Name>
+          <Alias>pageRedirect301</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Put in old page links that went to this same page (ie: category/hello.php). Also sends a permanent 301 message to search engines that the location has changed.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Additional URLs</Name>
+          <Alias>umbracoUrlAlias</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[A comma-separated list of any additional URLs that will point to this page.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Body ID</Name>
+          <Alias>bodyId</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Developer use only. Adds an ID to the body tag.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Alias</Name>
+          <Alias>pageAlias</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Developer use only. Used to reference this page in macros.]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>31</Id>
+          <Caption>News Item</Caption>
+        </Tab>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Page Specific</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+  </DocumentTypes>
+  <Templates>
+    <Template>
+      <Name>News Item</Name>
+      <Alias>News Item</Alias>
+      <Master>Subpage</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Subpage.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="ImulusBody" runat="server">
+  <asp:ContentPlaceHolder Id="ImulusBody" runat="server">
+  <body <umbraco:Item field='bodyId' insertTextBefore='id=&quot;' insertTextAfter='&quot; ' recursive='false' runat='server'></umbraco:Item>class="sub news-item">
+  </asp:ContentPlaceHolder><%-- // ImulusBody --%>
+</asp:content>
+  
+<asp:Content ContentPlaceHolderId="ImulusMainContent" runat="server">
+  <h1><umbraco:Item field="pageName" runat="server"></umbraco:Item></h1>
+  
+  <div class="news-post">
+    <p class="date"><umbraco:Item field="newsDate" insertTextBefore="&lt;span class=&quot;date&quot;&gt;" insertTextAfter="&lt;/span&gt;" formatAsDate="true" runat="server"></umbraco:Item></p>
+    
+    <umbraco:Item field="newsItemThumbnail" insertTextBefore="&lt;img src=&quot;" insertTextAfter="&quot; width=&quot;60&quot; height=&quot;60&quot; class=&quot;thumbnail&quot;/&gt;" runat="server"></umbraco:Item>
+    <umbraco:Item field='bodyText' recursive='false' runat='server'></umbraco:Item>
+  </div>
+  
+  <div class="clear"></div>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>News Overview</Name>
+      <Alias>News Overview</Alias>
+      <Master>Subpage</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Subpage.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="ImulusBody" runat="server">
+  <asp:ContentPlaceHolder Id="ImulusBody" runat="server">
+  <body <umbraco:Item field='bodyId' insertTextBefore='id=&quot;' insertTextAfter='&quot; ' recursive='false' runat='server'></umbraco:Item>class="sub news-overview">
+  </asp:ContentPlaceHolder><%-- // ImulusBody --%>
+</asp:content>
+  
+<asp:Content ContentPlaceHolderId="ImulusMainContent" runat="server">
+  <a class="right" href="rss" title="Read the Secure World RSS News Feed"><img src="/images/icons/rss-big.png" alt="Rss Icon"/></a>
+  <umbraco:Item field="pageName" insertTextBefore="&lt;h1&gt;&lt;span&gt;" insertTextAfter="&lt;/span&gt;&lt;/h1&gt;" runat="server"></umbraco:Item>
+  <div class="clear"></div>
+  <umbraco:Item field='bodyText' recursive='false' runat='server'></umbraco:Item>
+  <umbraco:Macro pageAlias="news" showAllNews="0" itemsPerPage="10" Alias="FilteredNewsList" runat="server"></umbraco:Macro>
+</asp:Content>]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets />
+  <Macros>
+    <macro>
+      <name>Filtered  News  List</name>
+      <alias>FilteredNewsList</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>FilteredNewsListAll.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>
+      </scriptingFile>
+      <properties>
+        <property name="Page Alias" alias="pageAlias" show="False" propertyType="text" />
+        <property name="Show All News" alias="showAllNews" show="False" propertyType="bool" />
+        <property name="Show Teaser" alias="showTeaser" show="False" propertyType="bool" />
+        <property name="Top Count" alias="topCount" show="False" propertyType="number" />
+        <property name="Items Per Page" alias="itemsPerPage" show="False" propertyType="number" />
+      </properties>
+    </macro>
+    <macro>
+      <name>Tags List</name>
+      <alias>TagsList</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>TagsList.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>
+      </scriptingFile>
+      <properties />
+    </macro>
+  </Macros>
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Related Tags" Id="cdbf0b5d-5cb2-445f-bc12-fcaaec07cf2c" Definition="36ae48b1-1cf9-48d7-a90f-93f3a56ad7af">
+      <PreValues>
+        <PreValue Id="21" Value="CheckBoxList|2402|Tag|False" />
+      </PreValues>
+    </DataType>
+  </DataTypes>
+</umbPackage>
