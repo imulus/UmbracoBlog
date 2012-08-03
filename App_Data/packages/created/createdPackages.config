@@ -31,7 +31,6 @@ v0.1.2
 - Adding blog name and owner name fields 
 - Updating macros to work with tagging on tag specific pages 
 - Allowing paging and top count variables (i.e. show only last posts)
-- Updating 
 
 v0.1.1 
 

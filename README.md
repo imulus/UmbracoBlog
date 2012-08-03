@@ -6,7 +6,7 @@ Finally the definitive simple blog solution for Umbraco.
 Details 
 ----------------------------------------
 
-This package is the beginning of solving a long-term problem that has plagued Umbraco. The lack of a clean, easy to set up, and flexible blog. The Blog Now package is set up to allow blog posts, tags, and custom RSS feeds.
+This package is the beginning of solving a long-term problem that has plagued Umbraco. The lack of a clean, easy to set up, and flexible blog. The 'Umbraco Blog' package is set up to allow blog posts, tags, and custom RSS feeds.
 
 The structure of this package is built into it's own isolated set of document type's and templates. In addition it contains several macros to pull out blog posts and page them properly. It also allows for individual pages of posts to be displayed based on a certain tag. Multiple blogs can be added to a site by simply adding a new blog document type and creating the subpage structure that matches the default install.
 
@@ -19,7 +19,7 @@ Configuration
 ----------------------------------------
 Specify the blog alias name (used for targeting the macros) in the "Page Alias" field on the "Properties" tab of the blog. By default this is set to "blog" and will automatically work.
 
-IMPORTANT: Update the "Related tags" datatype with the proper node ID of the tag folder. This is used to pull in created tags for each blog post.
+IMPORTANT: Update the "Related Tags" datatype with the proper node ID of the tag folder. This is used to pull in created tags for each blog post. See this example: http://cl.ly/image/1O3v0o0p0s11
  
 
 Change Log: 
