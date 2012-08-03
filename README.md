@@ -24,6 +24,14 @@ IMPORTANT: Update the "Related Tags" datatype with the proper node ID of the tag
 
 Change Log: 
 ----------------------------------------
+
+v0.1.3
+
+- Added Disqus commenting as an option via Macro Params. 
+- Added single blog post macro for pulling out a blog on one page. 
+- Included a CDN hosted version of boostrap to make sure things look good. 
+- Updates to doctypes to be cleaner, refining URL options.
+
 v0.1.2 
 
 - Adding default template so blog works out of the box
