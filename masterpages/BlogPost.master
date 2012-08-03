@@ -1,1 +1,10 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Blog.master" AutoEventWireup="true" %>
+  
+
+<asp:Content ContentPlaceHolderId="BlogBody" runat="server">
+<body class="blog individual">
+</asp:Content>
+
+<asp:Content ContentPlaceHolderId="BlogContentMain" runat="server">
+  <umbraco:Macro disqusName="umbracoblog" Alias="BlogSingle" runat="server"></umbraco:Macro>
+</asp:Content>

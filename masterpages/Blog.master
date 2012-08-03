@@ -7,6 +7,7 @@
 <head>
   <title><umbraco:Item field="htmlTitle" useIfEmpty="pageName" htmlEncode="true" runat="server"></umbraco:Item></title>
   <meta charset="utf-8"/>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/css/bootstrap-combined.min.css" type="text/css">
 </head>
 
 <asp:ContentPlaceHolder Id="BlogBody" runat="server">
@@ -14,38 +15,41 @@
 </asp:ContentPlaceHolder><%-- // BlogBody --%>
   
 <asp:ContentPlaceHolder Id="BlogHeader" runat="server">
-  <header id="header">
-    <strong class="title"><umbraco:Item field="blogTitle" useIfEmpty="pageName" runat="server" /></strong>
-  </header><!-- end header -->
+  <header id="header"><div class="container"><div class="row">
+    <h1 class="title span12"><a href="/" title="Return home"><umbraco:Item field="blogTitle" recursive="true" runat="server" /></a></h1>
+  </div></div></header><!-- end header -->
 </asp:ContentPlaceHolder><%-- // BlogHeader --%>
 
 <asp:ContentPlaceHolder Id="BlogContent" runat="server">
-  <div class="content">
+  <div class="content"><div class="container"><div class="row">
     <div id="main">
-
       <asp:ContentPlaceHolder Id="BlogContentMainTop" runat="server">
       </asp:ContentPlaceHolder>
       
       <asp:ContentPlaceHolder Id="BlogContentMain" runat="server">
-        <umbraco:Macro pageAlias="blog" showTeaser="0" topCount="" itemsPerPage="10" showAllPosts="1" Alias="BlogPosts" runat="server"></umbraco:Macro>
+        <umbraco:Macro pageAlias="blog" disqusName="umbracoblog" showTeaser="0" topCount="" itemsPerPage="10" showAllPosts="1" Alias="BlogPosts" runat="server"></umbraco:Macro>
       </asp:ContentPlaceHolder><%-- // BlogContentMain --%>
       
       <asp:ContentPlaceHolder Id="BlogContentMainBottom" runat="server">
       </asp:ContentPlaceHolder>
     </div><!-- end main -->
-    
+    </div></div></div><!-- end .content -->
 </asp:ContentPlaceHolder><%-- // BlogContent --%>
 
 <asp:ContentPlaceHolder Id="BlogFooter" runat="server">
-  <footer id="footer">
-      <p class="copyright">Copyright &copy; <umbraco:Item field="pageName" runat="server" xslt="Exslt.ExsltDatesAndTimes:year()"/> <umbraco:item field="blogOwner" recursive="true" runat="server"></umbraco:item></p>
-  </footer><!-- end footer -->    
+  <footer id="footer"><div class="container"><div class="row">
+      <p class="copyright span12">Copyright &copy; <umbraco:Item field="pageName" runat="server" xslt="Exslt.ExsltDatesAndTimes:year()"/> <umbraco:item field="blogOwner" recursive="true" runat="server"></umbraco:item></p>
+  </div></div></footer><!-- end footer -->    
 </asp:ContentPlaceHolder><%-- // BlogFooter --%>
 
 <div style="display:none;">
+
 <!-- jQuery -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/scripts/jquery-1.7.2.js"><\/script>')</script>
+
+<!-- Bootstrap -->
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.0.4/js/bootstrap.min.js"></script>
 
 <umbraco:Item field="pageScripts" runat="server"></umbraco:Item>
 </div>

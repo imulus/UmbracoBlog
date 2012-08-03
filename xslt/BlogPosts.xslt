@@ -11,6 +11,7 @@
 
 <xsl:param name="currentPage"/>
 <xsl:variable name="pageAlias" select="/macro/pageAlias"/>
+<xsl:variable name="disqusName" select="/macro/disqusName"/>    
 
 <xsl:variable name="showAllPosts">
   <xsl:choose>
@@ -103,14 +104,14 @@
     <xsl:variable name="blogPostDate" select="translate(blogPostDate, '-T:', '')"/>
 
     <xsl:if test="position() &gt; $recordsPerPage * number($pageNumber - 1) and position() &lt;= number($recordsPerPage * number($pageNumber - 1) + $recordsPerPage )">
-        <div class="post">
+        <div class="post span8">
           <h3>
             <a href="{umbraco.library:NiceUrl(@id)}">
               <xsl:value-of select="@nodeName"/>
             </a>
           </h3>
           
-          <time class="date"><em><xsl:value-of select="umbraco.library:FormatDateTime(blogPostDate, 'MMM d, yyyy')"/></em></time>    
+          <time class="date"><xsl:value-of select="umbraco.library:FormatDateTime(blogPostDate, 'MMM d, yyyy')"/></time>    
           
           <xsl:choose>
           <xsl:when test="blogPostAuthor = ''">
@@ -121,17 +122,20 @@
           </xsl:otherwise>
           </xsl:choose>
           
+          <span class="social"><a class="comment-count" href="{umbraco.library:NiceUrl(@id)}#disqus_thread" data-disqus-identifier="{@urlName}">Comments</a> <a href="{umbraco.library:NiceUrl(@id)}#comments">Leave a Comment</a></span>
+          
           <xsl:choose>
           <xsl:when test="$showTeaser = '1'">
-            <p><xsl:value-of select="blogPostTeaser"/></p>
+            <div class="teaser"><xsl:value-of select="blogPostTeaser"/></div>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:value-of select="bodyText" disable-output-escaping="yes"/>
+            <div class="post-content"><xsl:value-of select="bodyText" disable-output-escaping="yes"/></div>
           </xsl:otherwise>
           </xsl:choose>
           
-          <ul class="tags">
+          <ul class="tags unstyled">
             <xsl:variable name="blogTags" select="umbraco.library:Split(blogPostTags,',')" />
+            <li class="title">Tags:</li>
             <xsl:for-each select="$blogTags//value">
             <xsl:variable name="tagNode" select="umbraco.library:GetXmlNodeById(number(current()))" />
 
@@ -140,6 +144,25 @@
               </a></li>
             </xsl:for-each>
           </ul>
+          
+          <script>
+              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+              var disqus_shortname = '<xsl:value-of select="$disqusName"/>'; // required: replace example with your forum shortname
+
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+
+              (function () {
+                  var s = document.createElement('script'); s.async = true;
+                  s.type = 'text/javascript';
+                  s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+                  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+              }());
+          </script>
           
         </div><!-- end post -->
       </xsl:if>
@@ -163,16 +186,18 @@
   <xsl:param name="recordsPerPage"/>
   <xsl:param name="numberOfRecords"/>
 
-  <xsl:if test="($numberOfRecords div $recordsPerPage) &gt; 1"><!-- Only display pagination if needed -->
-    <div class="pagination">
+  <!-- Only display pagination if needed -->
+  <xsl:if test="($numberOfRecords div $recordsPerPage) &gt; 1">
+    <div class="paging span8">
+      <div class="btn-group">
       <xsl:if test="(($pageNumber) * $recordsPerPage) &lt; ($numberOfRecords)">
-        <a class="action-button white reverse" href="?page={$pageNumber + 1}"><span>Older Posts &#187;</span></a>
+        <a class="btn btn-large reverse" href="?page={$pageNumber + 1}"><span>Older Posts &#187;</span></a>
       </xsl:if>
-
       <xsl:if test="$pageNumber &gt; 1">
-        <a class="action-button white" href="?page={$pageNumber - 1}"><span>&#171; Newer Posts</span></a>
+        <a class="btn btn-large" href="?page={$pageNumber - 1}"><span>&#171; Newer Posts</span></a>
       </xsl:if>
-    </div>
+      </div><!-- end .btn-group -->
+    </div><!-- end .pagination -->
   </xsl:if>
 </xsl:template>
 
